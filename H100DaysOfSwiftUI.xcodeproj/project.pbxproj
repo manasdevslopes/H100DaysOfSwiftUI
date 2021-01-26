@@ -13,6 +13,16 @@
 		FD07FF0025BD954E00A02404 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD07FEFF25BD954E00A02404 /* Preview Assets.xcassets */; };
 		FD07FF0B25BD954F00A02404 /* H100DaysOfSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD07FF0A25BD954F00A02404 /* H100DaysOfSwiftUITests.swift */; };
 		FD07FF1625BD954F00A02404 /* H100DaysOfSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD07FF1525BD954F00A02404 /* H100DaysOfSwiftUIUITests.swift */; };
+		FD07FF2825BD96DC00A02404 /* Day16.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD07FF2725BD96DC00A02404 /* Day16.swift */; };
+		FD07FF2D25BD97E900A02404 /* Day 16 NavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD07FF2C25BD97E900A02404 /* Day 16 NavigationView.swift */; };
+		FD07FF3225BD9A8F00A02404 /* state.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD07FF3125BD9A8F00A02404 /* state.swift */; };
+		FD07FF3725BD9E1B00A02404 /* Day16 Picker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD07FF3625BD9E1B00A02404 /* Day16 Picker.swift */; };
+		FD07FF3C25BDA20800A02404 /* project.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD07FF3B25BDA20800A02404 /* project.swift */; };
+		FD3F0FCF25BDC6EB00B92B69 /* TempCalc.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3F0FCE25BDC6EB00B92B69 /* TempCalc.swift */; };
+		FD5236FE25BF13BF00CEAA3B /* GuessTheFlag.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5236FD25BF13BF00CEAA3B /* GuessTheFlag.swift */; };
+		FD8F52EB25C03E0A0011A0F9 /* viewComposition.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8F52EA25C03E0A0011A0F9 /* viewComposition.swift */; };
+		FD8F52F025C03EE60011A0F9 /* CustomModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8F52EF25C03EE60011A0F9 /* CustomModifier.swift */; };
+		FD8F52F525C041C30011A0F9 /* CustomContainers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8F52F425C041C30011A0F9 /* CustomContainers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +55,16 @@
 		FD07FF1125BD954F00A02404 /* H100DaysOfSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = H100DaysOfSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD07FF1525BD954F00A02404 /* H100DaysOfSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = H100DaysOfSwiftUIUITests.swift; sourceTree = "<group>"; };
 		FD07FF1725BD954F00A02404 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD07FF2725BD96DC00A02404 /* Day16.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day16.swift; sourceTree = "<group>"; };
+		FD07FF2C25BD97E900A02404 /* Day 16 NavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Day 16 NavigationView.swift"; sourceTree = "<group>"; };
+		FD07FF3125BD9A8F00A02404 /* state.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = state.swift; sourceTree = "<group>"; };
+		FD07FF3625BD9E1B00A02404 /* Day16 Picker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Day16 Picker.swift"; sourceTree = "<group>"; };
+		FD07FF3B25BDA20800A02404 /* project.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = project.swift; sourceTree = "<group>"; };
+		FD3F0FCE25BDC6EB00B92B69 /* TempCalc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempCalc.swift; sourceTree = "<group>"; };
+		FD5236FD25BF13BF00CEAA3B /* GuessTheFlag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessTheFlag.swift; sourceTree = "<group>"; };
+		FD8F52EA25C03E0A0011A0F9 /* viewComposition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewComposition.swift; sourceTree = "<group>"; };
+		FD8F52EF25C03EE60011A0F9 /* CustomModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModifier.swift; sourceTree = "<group>"; };
+		FD8F52F425C041C30011A0F9 /* CustomContainers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomContainers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +115,9 @@
 		FD07FEF725BD954700A02404 /* H100DaysOfSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				FD8F52E625C0340F0011A0F9 /* Project3 */,
+				FD5236FC25BF0EFF00CEAA3B /* Project2 */,
+				FD07FF2625BD96AE00A02404 /* Project 1 */,
 				FD07FEF825BD954700A02404 /* H100DaysOfSwiftUIApp.swift */,
 				FD07FEFA25BD954700A02404 /* ContentView.swift */,
 				FD07FEFC25BD954E00A02404 /* Assets.xcassets */,
@@ -128,6 +151,37 @@
 				FD07FF1725BD954F00A02404 /* Info.plist */,
 			);
 			path = H100DaysOfSwiftUIUITests;
+			sourceTree = "<group>";
+		};
+		FD07FF2625BD96AE00A02404 /* Project 1 */ = {
+			isa = PBXGroup;
+			children = (
+				FD07FF2725BD96DC00A02404 /* Day16.swift */,
+				FD07FF2C25BD97E900A02404 /* Day 16 NavigationView.swift */,
+				FD07FF3125BD9A8F00A02404 /* state.swift */,
+				FD07FF3625BD9E1B00A02404 /* Day16 Picker.swift */,
+				FD07FF3B25BDA20800A02404 /* project.swift */,
+				FD3F0FCE25BDC6EB00B92B69 /* TempCalc.swift */,
+			);
+			path = "Project 1";
+			sourceTree = "<group>";
+		};
+		FD5236FC25BF0EFF00CEAA3B /* Project2 */ = {
+			isa = PBXGroup;
+			children = (
+				FD5236FD25BF13BF00CEAA3B /* GuessTheFlag.swift */,
+			);
+			path = Project2;
+			sourceTree = "<group>";
+		};
+		FD8F52E625C0340F0011A0F9 /* Project3 */ = {
+			isa = PBXGroup;
+			children = (
+				FD8F52EA25C03E0A0011A0F9 /* viewComposition.swift */,
+				FD8F52EF25C03EE60011A0F9 /* CustomModifier.swift */,
+				FD8F52F425C041C30011A0F9 /* CustomContainers.swift */,
+			);
+			path = Project3;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +313,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD07FF3725BD9E1B00A02404 /* Day16 Picker.swift in Sources */,
 				FD07FEFB25BD954700A02404 /* ContentView.swift in Sources */,
+				FD8F52F525C041C30011A0F9 /* CustomContainers.swift in Sources */,
+				FD3F0FCF25BDC6EB00B92B69 /* TempCalc.swift in Sources */,
 				FD07FEF925BD954700A02404 /* H100DaysOfSwiftUIApp.swift in Sources */,
+				FD07FF3225BD9A8F00A02404 /* state.swift in Sources */,
+				FD07FF2D25BD97E900A02404 /* Day 16 NavigationView.swift in Sources */,
+				FD5236FE25BF13BF00CEAA3B /* GuessTheFlag.swift in Sources */,
+				FD07FF2825BD96DC00A02404 /* Day16.swift in Sources */,
+				FD07FF3C25BDA20800A02404 /* project.swift in Sources */,
+				FD8F52EB25C03E0A0011A0F9 /* viewComposition.swift in Sources */,
+				FD8F52F025C03EE60011A0F9 /* CustomModifier.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
