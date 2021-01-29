@@ -19,7 +19,14 @@
 		FD07FF3725BD9E1B00A02404 /* Day16 Picker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD07FF3625BD9E1B00A02404 /* Day16 Picker.swift */; };
 		FD07FF3C25BDA20800A02404 /* project.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD07FF3B25BDA20800A02404 /* project.swift */; };
 		FD3F0FCF25BDC6EB00B92B69 /* TempCalc.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3F0FCE25BDC6EB00B92B69 /* TempCalc.swift */; };
+		FD474F7225C1BA8800FE88E4 /* BetterRest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD474F7125C1BA8800FE88E4 /* BetterRest.swift */; };
+		FD474F7F25C1BE7900FE88E4 /* SleepCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = FD474F7E25C1BE7900FE88E4 /* SleepCalculator.mlmodel */; };
 		FD5236FE25BF13BF00CEAA3B /* GuessTheFlag.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5236FD25BF13BF00CEAA3B /* GuessTheFlag.swift */; };
+		FD8429B425C45CB000D9B0DF /* Lists.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8429B325C45CB000D9B0DF /* Lists.swift */; };
+		FD8429BC25C4625500D9B0DF /* LoadingResourcesFromAppBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8429BB25C4625500D9B0DF /* LoadingResourcesFromAppBundle.swift */; };
+		FD8429C125C463D100D9B0DF /* WorkingWithStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8429C025C463D100D9B0DF /* WorkingWithStrings.swift */; };
+		FD8429C625C4684A00D9B0DF /* WordScramble.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8429C525C4684900D9B0DF /* WordScramble.swift */; };
+		FD8429CB25C46F1800D9B0DF /* start.txt in Resources */ = {isa = PBXBuildFile; fileRef = FD8429CA25C46F1800D9B0DF /* start.txt */; };
 		FD8F52EB25C03E0A0011A0F9 /* viewComposition.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8F52EA25C03E0A0011A0F9 /* viewComposition.swift */; };
 		FD8F52F025C03EE60011A0F9 /* CustomModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8F52EF25C03EE60011A0F9 /* CustomModifier.swift */; };
 		FD8F52F525C041C30011A0F9 /* CustomContainers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8F52F425C041C30011A0F9 /* CustomContainers.swift */; };
@@ -61,7 +68,14 @@
 		FD07FF3625BD9E1B00A02404 /* Day16 Picker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Day16 Picker.swift"; sourceTree = "<group>"; };
 		FD07FF3B25BDA20800A02404 /* project.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = project.swift; sourceTree = "<group>"; };
 		FD3F0FCE25BDC6EB00B92B69 /* TempCalc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempCalc.swift; sourceTree = "<group>"; };
+		FD474F7125C1BA8800FE88E4 /* BetterRest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterRest.swift; sourceTree = "<group>"; };
+		FD474F7E25C1BE7900FE88E4 /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SleepCalculator.mlmodel; sourceTree = "<group>"; };
 		FD5236FD25BF13BF00CEAA3B /* GuessTheFlag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessTheFlag.swift; sourceTree = "<group>"; };
+		FD8429B325C45CB000D9B0DF /* Lists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lists.swift; sourceTree = "<group>"; };
+		FD8429BB25C4625500D9B0DF /* LoadingResourcesFromAppBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingResourcesFromAppBundle.swift; sourceTree = "<group>"; };
+		FD8429C025C463D100D9B0DF /* WorkingWithStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkingWithStrings.swift; sourceTree = "<group>"; };
+		FD8429C525C4684900D9B0DF /* WordScramble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordScramble.swift; sourceTree = "<group>"; };
+		FD8429CA25C46F1800D9B0DF /* start.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = start.txt; sourceTree = "<group>"; };
 		FD8F52EA25C03E0A0011A0F9 /* viewComposition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewComposition.swift; sourceTree = "<group>"; };
 		FD8F52EF25C03EE60011A0F9 /* CustomModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModifier.swift; sourceTree = "<group>"; };
 		FD8F52F425C041C30011A0F9 /* CustomContainers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomContainers.swift; sourceTree = "<group>"; };
@@ -115,6 +129,8 @@
 		FD07FEF725BD954700A02404 /* H100DaysOfSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				FD8429AF25C458F800D9B0DF /* Project5 */,
+				FD474F6D25C1B1B300FE88E4 /* Project4 */,
 				FD8F52E625C0340F0011A0F9 /* Project3 */,
 				FD5236FC25BF0EFF00CEAA3B /* Project2 */,
 				FD07FF2625BD96AE00A02404 /* Project 1 */,
@@ -122,6 +138,8 @@
 				FD07FEFA25BD954700A02404 /* ContentView.swift */,
 				FD07FEFC25BD954E00A02404 /* Assets.xcassets */,
 				FD07FF0125BD954E00A02404 /* Info.plist */,
+				FD474F7E25C1BE7900FE88E4 /* SleepCalculator.mlmodel */,
+				FD8429CA25C46F1800D9B0DF /* start.txt */,
 				FD07FEFE25BD954E00A02404 /* Preview Content */,
 			);
 			path = H100DaysOfSwiftUI;
@@ -166,12 +184,31 @@
 			path = "Project 1";
 			sourceTree = "<group>";
 		};
+		FD474F6D25C1B1B300FE88E4 /* Project4 */ = {
+			isa = PBXGroup;
+			children = (
+				FD474F7125C1BA8800FE88E4 /* BetterRest.swift */,
+			);
+			path = Project4;
+			sourceTree = "<group>";
+		};
 		FD5236FC25BF0EFF00CEAA3B /* Project2 */ = {
 			isa = PBXGroup;
 			children = (
 				FD5236FD25BF13BF00CEAA3B /* GuessTheFlag.swift */,
 			);
 			path = Project2;
+			sourceTree = "<group>";
+		};
+		FD8429AF25C458F800D9B0DF /* Project5 */ = {
+			isa = PBXGroup;
+			children = (
+				FD8429B325C45CB000D9B0DF /* Lists.swift */,
+				FD8429BB25C4625500D9B0DF /* LoadingResourcesFromAppBundle.swift */,
+				FD8429C025C463D100D9B0DF /* WorkingWithStrings.swift */,
+				FD8429C525C4684900D9B0DF /* WordScramble.swift */,
+			);
+			path = Project5;
 			sourceTree = "<group>";
 		};
 		FD8F52E625C0340F0011A0F9 /* Project3 */ = {
@@ -288,6 +325,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD07FF0025BD954E00A02404 /* Preview Assets.xcassets in Resources */,
+				FD8429CB25C46F1800D9B0DF /* start.txt in Resources */,
 				FD07FEFD25BD954E00A02404 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -319,9 +357,15 @@
 				FD3F0FCF25BDC6EB00B92B69 /* TempCalc.swift in Sources */,
 				FD07FEF925BD954700A02404 /* H100DaysOfSwiftUIApp.swift in Sources */,
 				FD07FF3225BD9A8F00A02404 /* state.swift in Sources */,
+				FD8429BC25C4625500D9B0DF /* LoadingResourcesFromAppBundle.swift in Sources */,
+				FD474F7225C1BA8800FE88E4 /* BetterRest.swift in Sources */,
+				FD8429C625C4684A00D9B0DF /* WordScramble.swift in Sources */,
 				FD07FF2D25BD97E900A02404 /* Day 16 NavigationView.swift in Sources */,
+				FD8429B425C45CB000D9B0DF /* Lists.swift in Sources */,
 				FD5236FE25BF13BF00CEAA3B /* GuessTheFlag.swift in Sources */,
 				FD07FF2825BD96DC00A02404 /* Day16.swift in Sources */,
+				FD8429C125C463D100D9B0DF /* WorkingWithStrings.swift in Sources */,
+				FD474F7F25C1BE7900FE88E4 /* SleepCalculator.mlmodel in Sources */,
 				FD07FF3C25BDA20800A02404 /* project.swift in Sources */,
 				FD8F52EB25C03E0A0011A0F9 /* viewComposition.swift in Sources */,
 				FD8F52F025C03EE60011A0F9 /* CustomModifier.swift in Sources */,
