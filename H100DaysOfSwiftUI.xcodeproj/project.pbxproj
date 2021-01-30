@@ -22,6 +22,14 @@
 		FD474F7225C1BA8800FE88E4 /* BetterRest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD474F7125C1BA8800FE88E4 /* BetterRest.swift */; };
 		FD474F7F25C1BE7900FE88E4 /* SleepCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = FD474F7E25C1BE7900FE88E4 /* SleepCalculator.mlmodel */; };
 		FD5236FE25BF13BF00CEAA3B /* GuessTheFlag.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5236FD25BF13BF00CEAA3B /* GuessTheFlag.swift */; };
+		FD77BCB225C5869F006C2869 /* ImplicitAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD77BCB125C5869F006C2869 /* ImplicitAnimation.swift */; };
+		FD77BCB725C58849006C2869 /* CustomizeAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD77BCB625C58849006C2869 /* CustomizeAnimation.swift */; };
+		FD77BCBC25C58BC9006C2869 /* AnimatingBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD77BCBB25C58BC9006C2869 /* AnimatingBinding.swift */; };
+		FD77BCC125C58E73006C2869 /* ExplicitAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD77BCC025C58E73006C2869 /* ExplicitAnimation.swift */; };
+		FD77BCC625C590AA006C2869 /* ControllingAnimationStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD77BCC525C590AA006C2869 /* ControllingAnimationStack.swift */; };
+		FD77BCCB25C59770006C2869 /* AnimatingGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD77BCCA25C59770006C2869 /* AnimatingGesture.swift */; };
+		FD77BCD025C59CE6006C2869 /* ShowHideViewAnim.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD77BCCF25C59CE6006C2869 /* ShowHideViewAnim.swift */; };
+		FD77BCD525C59FBB006C2869 /* CustomTransitionWIthViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD77BCD425C59FBB006C2869 /* CustomTransitionWIthViewModifier.swift */; };
 		FD8429B425C45CB000D9B0DF /* Lists.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8429B325C45CB000D9B0DF /* Lists.swift */; };
 		FD8429BC25C4625500D9B0DF /* LoadingResourcesFromAppBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8429BB25C4625500D9B0DF /* LoadingResourcesFromAppBundle.swift */; };
 		FD8429C125C463D100D9B0DF /* WorkingWithStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8429C025C463D100D9B0DF /* WorkingWithStrings.swift */; };
@@ -71,6 +79,14 @@
 		FD474F7125C1BA8800FE88E4 /* BetterRest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterRest.swift; sourceTree = "<group>"; };
 		FD474F7E25C1BE7900FE88E4 /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SleepCalculator.mlmodel; sourceTree = "<group>"; };
 		FD5236FD25BF13BF00CEAA3B /* GuessTheFlag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessTheFlag.swift; sourceTree = "<group>"; };
+		FD77BCB125C5869F006C2869 /* ImplicitAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImplicitAnimation.swift; sourceTree = "<group>"; };
+		FD77BCB625C58849006C2869 /* CustomizeAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizeAnimation.swift; sourceTree = "<group>"; };
+		FD77BCBB25C58BC9006C2869 /* AnimatingBinding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatingBinding.swift; sourceTree = "<group>"; };
+		FD77BCC025C58E73006C2869 /* ExplicitAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplicitAnimation.swift; sourceTree = "<group>"; };
+		FD77BCC525C590AA006C2869 /* ControllingAnimationStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllingAnimationStack.swift; sourceTree = "<group>"; };
+		FD77BCCA25C59770006C2869 /* AnimatingGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatingGesture.swift; sourceTree = "<group>"; };
+		FD77BCCF25C59CE6006C2869 /* ShowHideViewAnim.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowHideViewAnim.swift; sourceTree = "<group>"; };
+		FD77BCD425C59FBB006C2869 /* CustomTransitionWIthViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTransitionWIthViewModifier.swift; sourceTree = "<group>"; };
 		FD8429B325C45CB000D9B0DF /* Lists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lists.swift; sourceTree = "<group>"; };
 		FD8429BB25C4625500D9B0DF /* LoadingResourcesFromAppBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingResourcesFromAppBundle.swift; sourceTree = "<group>"; };
 		FD8429C025C463D100D9B0DF /* WorkingWithStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkingWithStrings.swift; sourceTree = "<group>"; };
@@ -129,6 +145,7 @@
 		FD07FEF725BD954700A02404 /* H100DaysOfSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				FD77BCB025C58651006C2869 /* Project6 */,
 				FD8429AF25C458F800D9B0DF /* Project5 */,
 				FD474F6D25C1B1B300FE88E4 /* Project4 */,
 				FD8F52E625C0340F0011A0F9 /* Project3 */,
@@ -198,6 +215,21 @@
 				FD5236FD25BF13BF00CEAA3B /* GuessTheFlag.swift */,
 			);
 			path = Project2;
+			sourceTree = "<group>";
+		};
+		FD77BCB025C58651006C2869 /* Project6 */ = {
+			isa = PBXGroup;
+			children = (
+				FD77BCB125C5869F006C2869 /* ImplicitAnimation.swift */,
+				FD77BCB625C58849006C2869 /* CustomizeAnimation.swift */,
+				FD77BCBB25C58BC9006C2869 /* AnimatingBinding.swift */,
+				FD77BCC025C58E73006C2869 /* ExplicitAnimation.swift */,
+				FD77BCC525C590AA006C2869 /* ControllingAnimationStack.swift */,
+				FD77BCCA25C59770006C2869 /* AnimatingGesture.swift */,
+				FD77BCCF25C59CE6006C2869 /* ShowHideViewAnim.swift */,
+				FD77BCD425C59FBB006C2869 /* CustomTransitionWIthViewModifier.swift */,
+			);
+			path = Project6;
 			sourceTree = "<group>";
 		};
 		FD8429AF25C458F800D9B0DF /* Project5 */ = {
@@ -357,17 +389,25 @@
 				FD3F0FCF25BDC6EB00B92B69 /* TempCalc.swift in Sources */,
 				FD07FEF925BD954700A02404 /* H100DaysOfSwiftUIApp.swift in Sources */,
 				FD07FF3225BD9A8F00A02404 /* state.swift in Sources */,
+				FD77BCB225C5869F006C2869 /* ImplicitAnimation.swift in Sources */,
+				FD77BCC625C590AA006C2869 /* ControllingAnimationStack.swift in Sources */,
 				FD8429BC25C4625500D9B0DF /* LoadingResourcesFromAppBundle.swift in Sources */,
+				FD77BCD525C59FBB006C2869 /* CustomTransitionWIthViewModifier.swift in Sources */,
 				FD474F7225C1BA8800FE88E4 /* BetterRest.swift in Sources */,
 				FD8429C625C4684A00D9B0DF /* WordScramble.swift in Sources */,
+				FD77BCB725C58849006C2869 /* CustomizeAnimation.swift in Sources */,
 				FD07FF2D25BD97E900A02404 /* Day 16 NavigationView.swift in Sources */,
 				FD8429B425C45CB000D9B0DF /* Lists.swift in Sources */,
 				FD5236FE25BF13BF00CEAA3B /* GuessTheFlag.swift in Sources */,
 				FD07FF2825BD96DC00A02404 /* Day16.swift in Sources */,
+				FD77BCCB25C59770006C2869 /* AnimatingGesture.swift in Sources */,
+				FD77BCD025C59CE6006C2869 /* ShowHideViewAnim.swift in Sources */,
 				FD8429C125C463D100D9B0DF /* WorkingWithStrings.swift in Sources */,
 				FD474F7F25C1BE7900FE88E4 /* SleepCalculator.mlmodel in Sources */,
 				FD07FF3C25BDA20800A02404 /* project.swift in Sources */,
+				FD77BCBC25C58BC9006C2869 /* AnimatingBinding.swift in Sources */,
 				FD8F52EB25C03E0A0011A0F9 /* viewComposition.swift in Sources */,
+				FD77BCC125C58E73006C2869 /* ExplicitAnimation.swift in Sources */,
 				FD8F52F025C03EE60011A0F9 /* CustomModifier.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
