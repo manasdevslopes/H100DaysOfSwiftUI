@@ -38,6 +38,14 @@
 		FD8F52EB25C03E0A0011A0F9 /* viewComposition.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8F52EA25C03E0A0011A0F9 /* viewComposition.swift */; };
 		FD8F52F025C03EE60011A0F9 /* CustomModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8F52EF25C03EE60011A0F9 /* CustomModifier.swift */; };
 		FD8F52F525C041C30011A0F9 /* CustomContainers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8F52F425C041C30011A0F9 /* CustomContainers.swift */; };
+		FDAC849325C6D9FC0015D268 /* ClassVsStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAC849225C6D9FC0015D268 /* ClassVsStruct.swift */; };
+		FDAC849825C6DAF40015D268 /* StateWithObservedObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAC849725C6DAF40015D268 /* StateWithObservedObject.swift */; };
+		FDAC849D25C6DCE90015D268 /* ShowHideViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAC849C25C6DCE90015D268 /* ShowHideViews.swift */; };
+		FDAC84A225C6E7230015D268 /* OnDelete.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAC84A125C6E7230015D268 /* OnDelete.swift */; };
+		FDAC84A725C6EAF30015D268 /* UserDefaultStoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAC84A625C6EAF30015D268 /* UserDefaultStoreData.swift */; };
+		FDAC84AC25C6F5150015D268 /* CodableSwiftObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAC84AB25C6F5150015D268 /* CodableSwiftObjects.swift */; };
+		FDAC84B125C6F8BB0015D268 /* iExpense.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAC84B025C6F8BB0015D268 /* iExpense.swift */; };
+		FDAC84B625C7012B0015D268 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAC84B525C7012B0015D268 /* AddView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,6 +103,14 @@
 		FD8F52EA25C03E0A0011A0F9 /* viewComposition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewComposition.swift; sourceTree = "<group>"; };
 		FD8F52EF25C03EE60011A0F9 /* CustomModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModifier.swift; sourceTree = "<group>"; };
 		FD8F52F425C041C30011A0F9 /* CustomContainers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomContainers.swift; sourceTree = "<group>"; };
+		FDAC849225C6D9FC0015D268 /* ClassVsStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassVsStruct.swift; sourceTree = "<group>"; };
+		FDAC849725C6DAF40015D268 /* StateWithObservedObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateWithObservedObject.swift; sourceTree = "<group>"; };
+		FDAC849C25C6DCE90015D268 /* ShowHideViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowHideViews.swift; sourceTree = "<group>"; };
+		FDAC84A125C6E7230015D268 /* OnDelete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnDelete.swift; sourceTree = "<group>"; };
+		FDAC84A625C6EAF30015D268 /* UserDefaultStoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultStoreData.swift; sourceTree = "<group>"; };
+		FDAC84AB25C6F5150015D268 /* CodableSwiftObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableSwiftObjects.swift; sourceTree = "<group>"; };
+		FDAC84B025C6F8BB0015D268 /* iExpense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iExpense.swift; sourceTree = "<group>"; };
+		FDAC84B525C7012B0015D268 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +161,7 @@
 		FD07FEF725BD954700A02404 /* H100DaysOfSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				FDAC849125C6D8EB0015D268 /* Project7 */,
 				FD77BCB025C58651006C2869 /* Project6 */,
 				FD8429AF25C458F800D9B0DF /* Project5 */,
 				FD474F6D25C1B1B300FE88E4 /* Project4 */,
@@ -251,6 +268,21 @@
 				FD8F52F425C041C30011A0F9 /* CustomContainers.swift */,
 			);
 			path = Project3;
+			sourceTree = "<group>";
+		};
+		FDAC849125C6D8EB0015D268 /* Project7 */ = {
+			isa = PBXGroup;
+			children = (
+				FDAC849225C6D9FC0015D268 /* ClassVsStruct.swift */,
+				FDAC849725C6DAF40015D268 /* StateWithObservedObject.swift */,
+				FDAC849C25C6DCE90015D268 /* ShowHideViews.swift */,
+				FDAC84A125C6E7230015D268 /* OnDelete.swift */,
+				FDAC84A625C6EAF30015D268 /* UserDefaultStoreData.swift */,
+				FDAC84AB25C6F5150015D268 /* CodableSwiftObjects.swift */,
+				FDAC84B025C6F8BB0015D268 /* iExpense.swift */,
+				FDAC84B525C7012B0015D268 /* AddView.swift */,
+			);
+			path = Project7;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -389,22 +421,30 @@
 				FD3F0FCF25BDC6EB00B92B69 /* TempCalc.swift in Sources */,
 				FD07FEF925BD954700A02404 /* H100DaysOfSwiftUIApp.swift in Sources */,
 				FD07FF3225BD9A8F00A02404 /* state.swift in Sources */,
+				FDAC849825C6DAF40015D268 /* StateWithObservedObject.swift in Sources */,
 				FD77BCB225C5869F006C2869 /* ImplicitAnimation.swift in Sources */,
+				FDAC84B625C7012B0015D268 /* AddView.swift in Sources */,
 				FD77BCC625C590AA006C2869 /* ControllingAnimationStack.swift in Sources */,
 				FD8429BC25C4625500D9B0DF /* LoadingResourcesFromAppBundle.swift in Sources */,
 				FD77BCD525C59FBB006C2869 /* CustomTransitionWIthViewModifier.swift in Sources */,
+				FDAC84B125C6F8BB0015D268 /* iExpense.swift in Sources */,
 				FD474F7225C1BA8800FE88E4 /* BetterRest.swift in Sources */,
 				FD8429C625C4684A00D9B0DF /* WordScramble.swift in Sources */,
 				FD77BCB725C58849006C2869 /* CustomizeAnimation.swift in Sources */,
 				FD07FF2D25BD97E900A02404 /* Day 16 NavigationView.swift in Sources */,
 				FD8429B425C45CB000D9B0DF /* Lists.swift in Sources */,
 				FD5236FE25BF13BF00CEAA3B /* GuessTheFlag.swift in Sources */,
+				FDAC84A225C6E7230015D268 /* OnDelete.swift in Sources */,
 				FD07FF2825BD96DC00A02404 /* Day16.swift in Sources */,
 				FD77BCCB25C59770006C2869 /* AnimatingGesture.swift in Sources */,
 				FD77BCD025C59CE6006C2869 /* ShowHideViewAnim.swift in Sources */,
+				FDAC84AC25C6F5150015D268 /* CodableSwiftObjects.swift in Sources */,
 				FD8429C125C463D100D9B0DF /* WorkingWithStrings.swift in Sources */,
 				FD474F7F25C1BE7900FE88E4 /* SleepCalculator.mlmodel in Sources */,
+				FDAC849325C6D9FC0015D268 /* ClassVsStruct.swift in Sources */,
+				FDAC849D25C6DCE90015D268 /* ShowHideViews.swift in Sources */,
 				FD07FF3C25BDA20800A02404 /* project.swift in Sources */,
+				FDAC84A725C6EAF30015D268 /* UserDefaultStoreData.swift in Sources */,
 				FD77BCBC25C58BC9006C2869 /* AnimatingBinding.swift in Sources */,
 				FD8F52EB25C03E0A0011A0F9 /* viewComposition.swift in Sources */,
 				FD77BCC125C58E73006C2869 /* ExplicitAnimation.swift in Sources */,
