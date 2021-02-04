@@ -18,6 +18,8 @@
 		FD07FF3225BD9A8F00A02404 /* state.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD07FF3125BD9A8F00A02404 /* state.swift */; };
 		FD07FF3725BD9E1B00A02404 /* Day16 Picker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD07FF3625BD9E1B00A02404 /* Day16 Picker.swift */; };
 		FD07FF3C25BDA20800A02404 /* project.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD07FF3B25BDA20800A02404 /* project.swift */; };
+		FD11F7BD25CC4680008A1D26 /* MissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD11F7BC25CC4680008A1D26 /* MissionView.swift */; };
+		FD11F7C225CC5EF7008A1D26 /* AstronautView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD11F7C125CC5EF7008A1D26 /* AstronautView.swift */; };
 		FD1C192925C84DCB00C91734 /* ResizeImageUsingGeometryReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1C192825C84DCB00C91734 /* ResizeImageUsingGeometryReader.swift */; };
 		FD1C192F25C8543400C91734 /* ScrollViewWithScrollingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1C192E25C8543400C91734 /* ScrollViewWithScrollingData.swift */; };
 		FD3F0FCF25BDC6EB00B92B69 /* TempCalc.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3F0FCE25BDC6EB00B92B69 /* TempCalc.swift */; };
@@ -93,6 +95,8 @@
 		FD07FF3125BD9A8F00A02404 /* state.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = state.swift; sourceTree = "<group>"; };
 		FD07FF3625BD9E1B00A02404 /* Day16 Picker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Day16 Picker.swift"; sourceTree = "<group>"; };
 		FD07FF3B25BDA20800A02404 /* project.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = project.swift; sourceTree = "<group>"; };
+		FD11F7BC25CC4680008A1D26 /* MissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionView.swift; sourceTree = "<group>"; };
+		FD11F7C125CC5EF7008A1D26 /* AstronautView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautView.swift; sourceTree = "<group>"; };
 		FD1C192825C84DCB00C91734 /* ResizeImageUsingGeometryReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResizeImageUsingGeometryReader.swift; sourceTree = "<group>"; };
 		FD1C192E25C8543400C91734 /* ScrollViewWithScrollingData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewWithScrollingData.swift; sourceTree = "<group>"; };
 		FD3F0FCE25BDC6EB00B92B69 /* TempCalc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempCalc.swift; sourceTree = "<group>"; };
@@ -250,6 +254,8 @@
 				FDA6D48F25C99D7B00B3DB9D /* HierarchicalCodableData.swift */,
 				FDA6D49425C9A2FD00B3DB9D /* Moonshot.swift */,
 				FDA6D4AA25C9A9AF00B3DB9D /* Mission.swift */,
+				FD11F7BC25CC4680008A1D26 /* MissionView.swift */,
+				FD11F7C125CC5EF7008A1D26 /* AstronautView.swift */,
 				FDA6D4A525C9A78E00B3DB9D /* Astronaut.swift */,
 				FDA6D4A025C9A4D000B3DB9D /* Bundle-Decodable.swift */,
 			);
@@ -461,11 +467,13 @@
 				FD3F0FCF25BDC6EB00B92B69 /* TempCalc.swift in Sources */,
 				FD07FEF925BD954700A02404 /* H100DaysOfSwiftUIApp.swift in Sources */,
 				FD07FF3225BD9A8F00A02404 /* state.swift in Sources */,
+				FD11F7C225CC5EF7008A1D26 /* AstronautView.swift in Sources */,
 				FDAC849825C6DAF40015D268 /* StateWithObservedObject.swift in Sources */,
 				FDA6D49025C99D7B00B3DB9D /* HierarchicalCodableData.swift in Sources */,
 				FD77BCB225C5869F006C2869 /* ImplicitAnimation.swift in Sources */,
 				FDAC84B625C7012B0015D268 /* AddView.swift in Sources */,
 				FDA6D48B25C99B9000B3DB9D /* NavigationLinks.swift in Sources */,
+				FD11F7BD25CC4680008A1D26 /* MissionView.swift in Sources */,
 				FD77BCC625C590AA006C2869 /* ControllingAnimationStack.swift in Sources */,
 				FDA6D4AB25C9A9AF00B3DB9D /* Mission.swift in Sources */,
 				FD8429BC25C4625500D9B0DF /* LoadingResourcesFromAppBundle.swift in Sources */,
