@@ -39,6 +39,16 @@
 		FD8429C125C463D100D9B0DF /* WorkingWithStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8429C025C463D100D9B0DF /* WorkingWithStrings.swift */; };
 		FD8429C625C4684A00D9B0DF /* WordScramble.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8429C525C4684900D9B0DF /* WordScramble.swift */; };
 		FD8429CB25C46F1800D9B0DF /* start.txt in Resources */ = {isa = PBXBuildFile; fileRef = FD8429CA25C46F1800D9B0DF /* start.txt */; };
+		FD88848F25CEB14E003AD159 /* CreatingCustomPaths.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD88848E25CEB14E003AD159 /* CreatingCustomPaths.swift */; };
+		FD88849425CEB592003AD159 /* PathVsShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD88849325CEB592003AD159 /* PathVsShapes.swift */; };
+		FD88849925CEBAD3003AD159 /* StrokeBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD88849825CEBAD3003AD159 /* StrokeBorder.swift */; };
+		FD88849E25CEBE12003AD159 /* CGAffineTransforms.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD88849D25CEBE12003AD159 /* CGAffineTransforms.swift */; };
+		FD8884A625CEDC05003AD159 /* ImagePaints.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8884A525CEDC05003AD159 /* ImagePaints.swift */; };
+		FD8884AC25CEE5F2003AD159 /* MetalRendering.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8884AB25CEE5F2003AD159 /* MetalRendering.swift */; };
+		FD8884B125CEE7D7003AD159 /* BlursBlending.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8884B025CEE7D7003AD159 /* BlursBlending.swift */; };
+		FD8884B625CEEABF003AD159 /* AnimatableData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8884B525CEEABF003AD159 /* AnimatableData.swift */; };
+		FD8884BB25CEEC55003AD159 /* AnimatablePairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8884BA25CEEC55003AD159 /* AnimatablePairs.swift */; };
+		FD8884C025CEEE4D003AD159 /* SpirographDig.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8884BF25CEEE4D003AD159 /* SpirographDig.swift */; };
 		FD8F52EB25C03E0A0011A0F9 /* viewComposition.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8F52EA25C03E0A0011A0F9 /* viewComposition.swift */; };
 		FD8F52F025C03EE60011A0F9 /* CustomModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8F52EF25C03EE60011A0F9 /* CustomModifier.swift */; };
 		FD8F52F525C041C30011A0F9 /* CustomContainers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8F52F425C041C30011A0F9 /* CustomContainers.swift */; };
@@ -116,6 +126,16 @@
 		FD8429C025C463D100D9B0DF /* WorkingWithStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkingWithStrings.swift; sourceTree = "<group>"; };
 		FD8429C525C4684900D9B0DF /* WordScramble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordScramble.swift; sourceTree = "<group>"; };
 		FD8429CA25C46F1800D9B0DF /* start.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = start.txt; sourceTree = "<group>"; };
+		FD88848E25CEB14E003AD159 /* CreatingCustomPaths.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatingCustomPaths.swift; sourceTree = "<group>"; };
+		FD88849325CEB592003AD159 /* PathVsShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathVsShapes.swift; sourceTree = "<group>"; };
+		FD88849825CEBAD3003AD159 /* StrokeBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrokeBorder.swift; sourceTree = "<group>"; };
+		FD88849D25CEBE12003AD159 /* CGAffineTransforms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGAffineTransforms.swift; sourceTree = "<group>"; };
+		FD8884A525CEDC05003AD159 /* ImagePaints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePaints.swift; sourceTree = "<group>"; };
+		FD8884AB25CEE5F2003AD159 /* MetalRendering.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalRendering.swift; sourceTree = "<group>"; };
+		FD8884B025CEE7D7003AD159 /* BlursBlending.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlursBlending.swift; sourceTree = "<group>"; };
+		FD8884B525CEEABF003AD159 /* AnimatableData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatableData.swift; sourceTree = "<group>"; };
+		FD8884BA25CEEC55003AD159 /* AnimatablePairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatablePairs.swift; sourceTree = "<group>"; };
+		FD8884BF25CEEE4D003AD159 /* SpirographDig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpirographDig.swift; sourceTree = "<group>"; };
 		FD8F52EA25C03E0A0011A0F9 /* viewComposition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewComposition.swift; sourceTree = "<group>"; };
 		FD8F52EF25C03EE60011A0F9 /* CustomModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModifier.swift; sourceTree = "<group>"; };
 		FD8F52F425C041C30011A0F9 /* CustomContainers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomContainers.swift; sourceTree = "<group>"; };
@@ -185,6 +205,7 @@
 		FD07FEF725BD954700A02404 /* H100DaysOfSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				FD88848D25CEB136003AD159 /* Project9 */,
 				FD1C192625C84D6600C91734 /* Project8 */,
 				FDAC849125C6D8EB0015D268 /* Project7 */,
 				FD77BCB025C58651006C2869 /* Project6 */,
@@ -302,6 +323,23 @@
 				FD8429C525C4684900D9B0DF /* WordScramble.swift */,
 			);
 			path = Project5;
+			sourceTree = "<group>";
+		};
+		FD88848D25CEB136003AD159 /* Project9 */ = {
+			isa = PBXGroup;
+			children = (
+				FD88848E25CEB14E003AD159 /* CreatingCustomPaths.swift */,
+				FD88849325CEB592003AD159 /* PathVsShapes.swift */,
+				FD88849825CEBAD3003AD159 /* StrokeBorder.swift */,
+				FD88849D25CEBE12003AD159 /* CGAffineTransforms.swift */,
+				FD8884A525CEDC05003AD159 /* ImagePaints.swift */,
+				FD8884AB25CEE5F2003AD159 /* MetalRendering.swift */,
+				FD8884B025CEE7D7003AD159 /* BlursBlending.swift */,
+				FD8884B525CEEABF003AD159 /* AnimatableData.swift */,
+				FD8884BA25CEEC55003AD159 /* AnimatablePairs.swift */,
+				FD8884BF25CEEE4D003AD159 /* SpirographDig.swift */,
+			);
+			path = Project9;
 			sourceTree = "<group>";
 		};
 		FD8F52E625C0340F0011A0F9 /* Project3 */ = {
@@ -470,6 +508,7 @@
 				FD11F7C225CC5EF7008A1D26 /* AstronautView.swift in Sources */,
 				FDAC849825C6DAF40015D268 /* StateWithObservedObject.swift in Sources */,
 				FDA6D49025C99D7B00B3DB9D /* HierarchicalCodableData.swift in Sources */,
+				FD88848F25CEB14E003AD159 /* CreatingCustomPaths.swift in Sources */,
 				FD77BCB225C5869F006C2869 /* ImplicitAnimation.swift in Sources */,
 				FDAC84B625C7012B0015D268 /* AddView.swift in Sources */,
 				FDA6D48B25C99B9000B3DB9D /* NavigationLinks.swift in Sources */,
@@ -483,6 +522,8 @@
 				FD8429C625C4684A00D9B0DF /* WordScramble.swift in Sources */,
 				FD77BCB725C58849006C2869 /* CustomizeAnimation.swift in Sources */,
 				FD1C192925C84DCB00C91734 /* ResizeImageUsingGeometryReader.swift in Sources */,
+				FD88849925CEBAD3003AD159 /* StrokeBorder.swift in Sources */,
+				FD8884A625CEDC05003AD159 /* ImagePaints.swift in Sources */,
 				FD07FF2D25BD97E900A02404 /* Day 16 NavigationView.swift in Sources */,
 				FD8429B425C45CB000D9B0DF /* Lists.swift in Sources */,
 				FD5236FE25BF13BF00CEAA3B /* GuessTheFlag.swift in Sources */,
@@ -490,10 +531,13 @@
 				FDAC84A225C6E7230015D268 /* OnDelete.swift in Sources */,
 				FD07FF2825BD96DC00A02404 /* Day16.swift in Sources */,
 				FD77BCCB25C59770006C2869 /* AnimatingGesture.swift in Sources */,
+				FD8884AC25CEE5F2003AD159 /* MetalRendering.swift in Sources */,
 				FD1C192F25C8543400C91734 /* ScrollViewWithScrollingData.swift in Sources */,
 				FDA6D4A125C9A4D000B3DB9D /* Bundle-Decodable.swift in Sources */,
+				FD88849E25CEBE12003AD159 /* CGAffineTransforms.swift in Sources */,
 				FD77BCD025C59CE6006C2869 /* ShowHideViewAnim.swift in Sources */,
 				FDAC84AC25C6F5150015D268 /* CodableSwiftObjects.swift in Sources */,
+				FD8884B125CEE7D7003AD159 /* BlursBlending.swift in Sources */,
 				FD8429C125C463D100D9B0DF /* WorkingWithStrings.swift in Sources */,
 				FD474F7F25C1BE7900FE88E4 /* SleepCalculator.mlmodel in Sources */,
 				FDAC849325C6D9FC0015D268 /* ClassVsStruct.swift in Sources */,
@@ -503,8 +547,12 @@
 				FDA6D4A625C9A78E00B3DB9D /* Astronaut.swift in Sources */,
 				FD77BCBC25C58BC9006C2869 /* AnimatingBinding.swift in Sources */,
 				FD8F52EB25C03E0A0011A0F9 /* viewComposition.swift in Sources */,
+				FD8884BB25CEEC55003AD159 /* AnimatablePairs.swift in Sources */,
 				FD77BCC125C58E73006C2869 /* ExplicitAnimation.swift in Sources */,
 				FD8F52F025C03EE60011A0F9 /* CustomModifier.swift in Sources */,
+				FD88849425CEB592003AD159 /* PathVsShapes.swift in Sources */,
+				FD8884B625CEEABF003AD159 /* AnimatableData.swift in Sources */,
+				FD8884C025CEEE4D003AD159 /* SpirographDig.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
