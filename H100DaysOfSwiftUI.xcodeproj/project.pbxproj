@@ -18,6 +18,7 @@
 		FD07FF3225BD9A8F00A02404 /* state.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD07FF3125BD9A8F00A02404 /* state.swift */; };
 		FD07FF3725BD9E1B00A02404 /* Day16 Picker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD07FF3625BD9E1B00A02404 /* Day16 Picker.swift */; };
 		FD07FF3C25BDA20800A02404 /* project.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD07FF3B25BDA20800A02404 /* project.swift */; };
+		FD11CCDF25D1852400A035FD /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD11CCDE25D1852400A035FD /* CheckoutView.swift */; };
 		FD11F7BD25CC4680008A1D26 /* MissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD11F7BC25CC4680008A1D26 /* MissionView.swift */; };
 		FD11F7C225CC5EF7008A1D26 /* AstronautView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD11F7C125CC5EF7008A1D26 /* AstronautView.swift */; };
 		FD1C192925C84DCB00C91734 /* ResizeImageUsingGeometryReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1C192825C84DCB00C91734 /* ResizeImageUsingGeometryReader.swift */; };
@@ -111,6 +112,7 @@
 		FD07FF3125BD9A8F00A02404 /* state.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = state.swift; sourceTree = "<group>"; };
 		FD07FF3625BD9E1B00A02404 /* Day16 Picker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Day16 Picker.swift"; sourceTree = "<group>"; };
 		FD07FF3B25BDA20800A02404 /* project.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = project.swift; sourceTree = "<group>"; };
+		FD11CCDE25D1852400A035FD /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
 		FD11F7BC25CC4680008A1D26 /* MissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionView.swift; sourceTree = "<group>"; };
 		FD11F7C125CC5EF7008A1D26 /* AstronautView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautView.swift; sourceTree = "<group>"; };
 		FD1C192825C84DCB00C91734 /* ResizeImageUsingGeometryReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResizeImageUsingGeometryReader.swift; sourceTree = "<group>"; };
@@ -304,6 +306,7 @@
 				FD33354925D0346300385254 /* Order.swift */,
 				FD33354E25D035E800385254 /* CupCakes.swift */,
 				FD33355325D03A9800385254 /* AddressView.swift */,
+				FD11CCDE25D1852400A035FD /* CheckoutView.swift */,
 				FD33354425D00F5400385254 /* ValidatingDisablingForm.swift */,
 			);
 			path = Project10;
@@ -577,6 +580,7 @@
 				FDAC84A725C6EAF30015D268 /* UserDefaultStoreData.swift in Sources */,
 				FDA6D4A625C9A78E00B3DB9D /* Astronaut.swift in Sources */,
 				FD77BCBC25C58BC9006C2869 /* AnimatingBinding.swift in Sources */,
+				FD11CCDF25D1852400A035FD /* CheckoutView.swift in Sources */,
 				FD8F52EB25C03E0A0011A0F9 /* viewComposition.swift in Sources */,
 				FD8884BB25CEEC55003AD159 /* AnimatablePairs.swift in Sources */,
 				FD33355425D03A9900385254 /* AddressView.swift in Sources */,
