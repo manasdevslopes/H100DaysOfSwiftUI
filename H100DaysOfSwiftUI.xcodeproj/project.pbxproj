@@ -33,6 +33,8 @@
 		FD474F7225C1BA8800FE88E4 /* BetterRest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD474F7125C1BA8800FE88E4 /* BetterRest.swift */; };
 		FD474F7F25C1BE7900FE88E4 /* SleepCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = FD474F7E25C1BE7900FE88E4 /* SleepCalculator.mlmodel */; };
 		FD5236FE25BF13BF00CEAA3B /* GuessTheFlag.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5236FD25BF13BF00CEAA3B /* GuessTheFlag.swift */; };
+		FD5B503325D4298300D0F0EE /* CustomComponentWithBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5B503225D4298300D0F0EE /* CustomComponentWithBinding.swift */; };
+		FD5B503825D42D1600D0F0EE /* SizeClassesWithAnyViewTypeErasure.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5B503725D42D1600D0F0EE /* SizeClassesWithAnyViewTypeErasure.swift */; };
 		FD77BCB225C5869F006C2869 /* ImplicitAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD77BCB125C5869F006C2869 /* ImplicitAnimation.swift */; };
 		FD77BCB725C58849006C2869 /* CustomizeAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD77BCB625C58849006C2869 /* CustomizeAnimation.swift */; };
 		FD77BCBC25C58BC9006C2869 /* AnimatingBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD77BCBB25C58BC9006C2869 /* AnimatingBinding.swift */; };
@@ -127,6 +129,8 @@
 		FD474F7125C1BA8800FE88E4 /* BetterRest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterRest.swift; sourceTree = "<group>"; };
 		FD474F7E25C1BE7900FE88E4 /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SleepCalculator.mlmodel; sourceTree = "<group>"; };
 		FD5236FD25BF13BF00CEAA3B /* GuessTheFlag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessTheFlag.swift; sourceTree = "<group>"; };
+		FD5B503225D4298300D0F0EE /* CustomComponentWithBinding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomComponentWithBinding.swift; sourceTree = "<group>"; };
+		FD5B503725D42D1600D0F0EE /* SizeClassesWithAnyViewTypeErasure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeClassesWithAnyViewTypeErasure.swift; sourceTree = "<group>"; };
 		FD77BCB125C5869F006C2869 /* ImplicitAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImplicitAnimation.swift; sourceTree = "<group>"; };
 		FD77BCB625C58849006C2869 /* CustomizeAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizeAnimation.swift; sourceTree = "<group>"; };
 		FD77BCBB25C58BC9006C2869 /* AnimatingBinding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatingBinding.swift; sourceTree = "<group>"; };
@@ -219,6 +223,7 @@
 		FD07FEF725BD954700A02404 /* H100DaysOfSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				FD5B503125D4290100D0F0EE /* Project11 */,
 				FD33353325CFFDC400385254 /* Project10 */,
 				FD88848D25CEB136003AD159 /* Project9 */,
 				FD1C192625C84D6600C91734 /* Project8 */,
@@ -326,6 +331,15 @@
 				FD5236FD25BF13BF00CEAA3B /* GuessTheFlag.swift */,
 			);
 			path = Project2;
+			sourceTree = "<group>";
+		};
+		FD5B503125D4290100D0F0EE /* Project11 */ = {
+			isa = PBXGroup;
+			children = (
+				FD5B503225D4298300D0F0EE /* CustomComponentWithBinding.swift */,
+				FD5B503725D42D1600D0F0EE /* SizeClassesWithAnyViewTypeErasure.swift */,
+			);
+			path = Project11;
 			sourceTree = "<group>";
 		};
 		FD77BCB025C58651006C2869 /* Project6 */ = {
@@ -536,6 +550,7 @@
 				FD33354F25D035E800385254 /* CupCakes.swift in Sources */,
 				FD33354025D0053C00385254 /* URLSessionSendingRecievingCodableData.swift in Sources */,
 				FD07FF3225BD9A8F00A02404 /* state.swift in Sources */,
+				FD5B503325D4298300D0F0EE /* CustomComponentWithBinding.swift in Sources */,
 				FD11F7C225CC5EF7008A1D26 /* AstronautView.swift in Sources */,
 				FDAC849825C6DAF40015D268 /* StateWithObservedObject.swift in Sources */,
 				FDA6D49025C99D7B00B3DB9D /* HierarchicalCodableData.swift in Sources */,
@@ -584,6 +599,7 @@
 				FD8F52EB25C03E0A0011A0F9 /* viewComposition.swift in Sources */,
 				FD8884BB25CEEC55003AD159 /* AnimatablePairs.swift in Sources */,
 				FD33355425D03A9900385254 /* AddressView.swift in Sources */,
+				FD5B503825D42D1600D0F0EE /* SizeClassesWithAnyViewTypeErasure.swift in Sources */,
 				FD77BCC125C58E73006C2869 /* ExplicitAnimation.swift in Sources */,
 				FD8F52F025C03EE60011A0F9 /* CustomModifier.swift in Sources */,
 				FD88849425CEB592003AD159 /* PathVsShapes.swift in Sources */,
