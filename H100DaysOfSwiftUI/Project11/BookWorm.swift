@@ -30,6 +30,8 @@ struct BookWorm: View {
                         VStack(alignment: .leading) {
                             Text(book.title ?? "Unknown Title")
                                 .font(.headline)
+                                .foregroundColor(book.rating < 2 ? .red : .black)
+                            
                             Text(book.author ?? "Unknown Author")
                                 .foregroundColor(.secondary)
                         }

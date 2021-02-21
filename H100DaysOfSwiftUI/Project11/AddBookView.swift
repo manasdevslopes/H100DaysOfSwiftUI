@@ -48,7 +48,7 @@ struct AddBookView: View {
                 
                 Section {
                     Button("Save") {
-                        if(self.title != "" && self.author != ""){
+                        if(self.title != "" && self.author != "" && self.genre != ""){
                             let newBook = Book(context: self.moc)
                             newBook.title = self.title
                             newBook.author = self.author
