@@ -8,9 +8,11 @@
 import SwiftUI
 
 struct ContentView: View {
-     
+    let context = Persistent.persistentContainer.viewContext
+    
     var body: some View {
-        CupCakes()
+        BookWorm()
+            .environment(\.managedObjectContext, context)
     }
 }
 

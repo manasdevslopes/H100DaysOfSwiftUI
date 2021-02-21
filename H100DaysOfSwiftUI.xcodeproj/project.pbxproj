@@ -21,6 +21,9 @@
 		FD11CCDF25D1852400A035FD /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD11CCDE25D1852400A035FD /* CheckoutView.swift */; };
 		FD11F7BD25CC4680008A1D26 /* MissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD11F7BC25CC4680008A1D26 /* MissionView.swift */; };
 		FD11F7C225CC5EF7008A1D26 /* AstronautView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD11F7C125CC5EF7008A1D26 /* AstronautView.swift */; };
+		FD17B04C25D590A9007213B1 /* CombineCoreDataWithSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD17B04B25D590A9007213B1 /* CombineCoreDataWithSwiftUI.swift */; };
+		FD17B05525D590F1007213B1 /* MyModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FD17B05325D590F1007213B1 /* MyModel.xcdatamodeld */; };
+		FD17B05A25D59145007213B1 /* Persistent.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD17B05925D59145007213B1 /* Persistent.swift */; };
 		FD1C192925C84DCB00C91734 /* ResizeImageUsingGeometryReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1C192825C84DCB00C91734 /* ResizeImageUsingGeometryReader.swift */; };
 		FD1C192F25C8543400C91734 /* ScrollViewWithScrollingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1C192E25C8543400C91734 /* ScrollViewWithScrollingData.swift */; };
 		FD33353525CFFDFF00385254 /* CodableConformancePublishedProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD33353425CFFDFF00385254 /* CodableConformancePublishedProperties.swift */; };
@@ -33,6 +36,10 @@
 		FD474F7225C1BA8800FE88E4 /* BetterRest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD474F7125C1BA8800FE88E4 /* BetterRest.swift */; };
 		FD474F7F25C1BE7900FE88E4 /* SleepCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = FD474F7E25C1BE7900FE88E4 /* SleepCalculator.mlmodel */; };
 		FD5236FE25BF13BF00CEAA3B /* GuessTheFlag.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5236FD25BF13BF00CEAA3B /* GuessTheFlag.swift */; };
+		FD53A1C625D9426F00D807D6 /* BookWorm.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD53A1C525D9426F00D807D6 /* BookWorm.swift */; };
+		FD53A1D125D9440D00D807D6 /* AddBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD53A1D025D9440D00D807D6 /* AddBookView.swift */; };
+		FD53A1DC25D94C6B00D807D6 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD53A1DB25D94C6B00D807D6 /* RatingView.swift */; };
+		FD53A1E125D9525600D807D6 /* EmojiRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD53A1E025D9525600D807D6 /* EmojiRatingView.swift */; };
 		FD5B503325D4298300D0F0EE /* CustomComponentWithBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5B503225D4298300D0F0EE /* CustomComponentWithBinding.swift */; };
 		FD5B503825D42D1600D0F0EE /* SizeClassesWithAnyViewTypeErasure.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5B503725D42D1600D0F0EE /* SizeClassesWithAnyViewTypeErasure.swift */; };
 		FD77BCB225C5869F006C2869 /* ImplicitAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD77BCB125C5869F006C2869 /* ImplicitAnimation.swift */; };
@@ -77,6 +84,7 @@
 		FDAC84AC25C6F5150015D268 /* CodableSwiftObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAC84AB25C6F5150015D268 /* CodableSwiftObjects.swift */; };
 		FDAC84B125C6F8BB0015D268 /* iExpense.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAC84B025C6F8BB0015D268 /* iExpense.swift */; };
 		FDAC84B625C7012B0015D268 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAC84B525C7012B0015D268 /* AddView.swift */; };
+		FDAE8A6425E2B00D002089A2 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAE8A6325E2B00D002089A2 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -117,6 +125,9 @@
 		FD11CCDE25D1852400A035FD /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
 		FD11F7BC25CC4680008A1D26 /* MissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionView.swift; sourceTree = "<group>"; };
 		FD11F7C125CC5EF7008A1D26 /* AstronautView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautView.swift; sourceTree = "<group>"; };
+		FD17B04B25D590A9007213B1 /* CombineCoreDataWithSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineCoreDataWithSwiftUI.swift; sourceTree = "<group>"; };
+		FD17B05425D590F1007213B1 /* BookWorm.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BookWorm.xcdatamodel; sourceTree = "<group>"; };
+		FD17B05925D59145007213B1 /* Persistent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistent.swift; sourceTree = "<group>"; };
 		FD1C192825C84DCB00C91734 /* ResizeImageUsingGeometryReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResizeImageUsingGeometryReader.swift; sourceTree = "<group>"; };
 		FD1C192E25C8543400C91734 /* ScrollViewWithScrollingData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewWithScrollingData.swift; sourceTree = "<group>"; };
 		FD33353425CFFDFF00385254 /* CodableConformancePublishedProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableConformancePublishedProperties.swift; sourceTree = "<group>"; };
@@ -129,6 +140,10 @@
 		FD474F7125C1BA8800FE88E4 /* BetterRest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterRest.swift; sourceTree = "<group>"; };
 		FD474F7E25C1BE7900FE88E4 /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SleepCalculator.mlmodel; sourceTree = "<group>"; };
 		FD5236FD25BF13BF00CEAA3B /* GuessTheFlag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessTheFlag.swift; sourceTree = "<group>"; };
+		FD53A1C525D9426F00D807D6 /* BookWorm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookWorm.swift; sourceTree = "<group>"; };
+		FD53A1D025D9440D00D807D6 /* AddBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBookView.swift; sourceTree = "<group>"; };
+		FD53A1DB25D94C6B00D807D6 /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
+		FD53A1E025D9525600D807D6 /* EmojiRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiRatingView.swift; sourceTree = "<group>"; };
 		FD5B503225D4298300D0F0EE /* CustomComponentWithBinding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomComponentWithBinding.swift; sourceTree = "<group>"; };
 		FD5B503725D42D1600D0F0EE /* SizeClassesWithAnyViewTypeErasure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeClassesWithAnyViewTypeErasure.swift; sourceTree = "<group>"; };
 		FD77BCB125C5869F006C2869 /* ImplicitAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImplicitAnimation.swift; sourceTree = "<group>"; };
@@ -173,6 +188,7 @@
 		FDAC84AB25C6F5150015D268 /* CodableSwiftObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableSwiftObjects.swift; sourceTree = "<group>"; };
 		FDAC84B025C6F8BB0015D268 /* iExpense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iExpense.swift; sourceTree = "<group>"; };
 		FDAC84B525C7012B0015D268 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
+		FDAE8A6325E2B00D002089A2 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -243,6 +259,8 @@
 				FDA6D49A25C9A37500B3DB9D /* astronauts.json */,
 				FDA6D49925C9A37400B3DB9D /* missions.json */,
 				FD07FEFE25BD954E00A02404 /* Preview Content */,
+				FD17B05325D590F1007213B1 /* MyModel.xcdatamodeld */,
+				FD17B05925D59145007213B1 /* Persistent.swift */,
 			);
 			path = H100DaysOfSwiftUI;
 			sourceTree = "<group>";
@@ -338,6 +356,12 @@
 			children = (
 				FD5B503225D4298300D0F0EE /* CustomComponentWithBinding.swift */,
 				FD5B503725D42D1600D0F0EE /* SizeClassesWithAnyViewTypeErasure.swift */,
+				FD17B04B25D590A9007213B1 /* CombineCoreDataWithSwiftUI.swift */,
+				FD53A1C525D9426F00D807D6 /* BookWorm.swift */,
+				FDAE8A6325E2B00D002089A2 /* DetailView.swift */,
+				FD53A1D025D9440D00D807D6 /* AddBookView.swift */,
+				FD53A1DB25D94C6B00D807D6 /* RatingView.swift */,
+				FD53A1E025D9525600D807D6 /* EmojiRatingView.swift */,
 			);
 			path = Project11;
 			sourceTree = "<group>";
@@ -547,7 +571,9 @@
 				FD8F52F525C041C30011A0F9 /* CustomContainers.swift in Sources */,
 				FD3F0FCF25BDC6EB00B92B69 /* TempCalc.swift in Sources */,
 				FD07FEF925BD954700A02404 /* H100DaysOfSwiftUIApp.swift in Sources */,
+				FDAE8A6425E2B00D002089A2 /* DetailView.swift in Sources */,
 				FD33354F25D035E800385254 /* CupCakes.swift in Sources */,
+				FD17B05A25D59145007213B1 /* Persistent.swift in Sources */,
 				FD33354025D0053C00385254 /* URLSessionSendingRecievingCodableData.swift in Sources */,
 				FD07FF3225BD9A8F00A02404 /* state.swift in Sources */,
 				FD5B503325D4298300D0F0EE /* CustomComponentWithBinding.swift in Sources */,
@@ -571,6 +597,8 @@
 				FD77BCB725C58849006C2869 /* CustomizeAnimation.swift in Sources */,
 				FD1C192925C84DCB00C91734 /* ResizeImageUsingGeometryReader.swift in Sources */,
 				FD88849925CEBAD3003AD159 /* StrokeBorder.swift in Sources */,
+				FD53A1E125D9525600D807D6 /* EmojiRatingView.swift in Sources */,
+				FD53A1DC25D94C6B00D807D6 /* RatingView.swift in Sources */,
 				FD8884A625CEDC05003AD159 /* ImagePaints.swift in Sources */,
 				FD33354A25D0346300385254 /* Order.swift in Sources */,
 				FD07FF2D25BD97E900A02404 /* Day 16 NavigationView.swift in Sources */,
@@ -578,6 +606,8 @@
 				FD5236FE25BF13BF00CEAA3B /* GuessTheFlag.swift in Sources */,
 				FDA6D49525C9A2FE00B3DB9D /* Moonshot.swift in Sources */,
 				FDAC84A225C6E7230015D268 /* OnDelete.swift in Sources */,
+				FD53A1D125D9440D00D807D6 /* AddBookView.swift in Sources */,
+				FD17B05525D590F1007213B1 /* MyModel.xcdatamodeld in Sources */,
 				FD07FF2825BD96DC00A02404 /* Day16.swift in Sources */,
 				FD77BCCB25C59770006C2869 /* AnimatingGesture.swift in Sources */,
 				FD8884AC25CEE5F2003AD159 /* MetalRendering.swift in Sources */,
@@ -592,6 +622,7 @@
 				FDAC849325C6D9FC0015D268 /* ClassVsStruct.swift in Sources */,
 				FDAC849D25C6DCE90015D268 /* ShowHideViews.swift in Sources */,
 				FD07FF3C25BDA20800A02404 /* project.swift in Sources */,
+				FD17B04C25D590A9007213B1 /* CombineCoreDataWithSwiftUI.swift in Sources */,
 				FDAC84A725C6EAF30015D268 /* UserDefaultStoreData.swift in Sources */,
 				FDA6D4A625C9A78E00B3DB9D /* Astronaut.swift in Sources */,
 				FD77BCBC25C58BC9006C2869 /* AnimatingBinding.swift in Sources */,
@@ -602,6 +633,7 @@
 				FD5B503825D42D1600D0F0EE /* SizeClassesWithAnyViewTypeErasure.swift in Sources */,
 				FD77BCC125C58E73006C2869 /* ExplicitAnimation.swift in Sources */,
 				FD8F52F025C03EE60011A0F9 /* CustomModifier.swift in Sources */,
+				FD53A1C625D9426F00D807D6 /* BookWorm.swift in Sources */,
 				FD88849425CEB592003AD159 /* PathVsShapes.swift in Sources */,
 				FD8884B625CEEABF003AD159 /* AnimatableData.swift in Sources */,
 				FD8884C025CEEE4D003AD159 /* SpirographDig.swift in Sources */,
@@ -924,6 +956,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FD17B05325D590F1007213B1 /* MyModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FD17B05425D590F1007213B1 /* BookWorm.xcdatamodel */,
+			);
+			currentVersion = FD17B05425D590F1007213B1 /* BookWorm.xcdatamodel */;
+			path = MyModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = FD07FEED25BD954700A02404 /* Project object */;
 }
