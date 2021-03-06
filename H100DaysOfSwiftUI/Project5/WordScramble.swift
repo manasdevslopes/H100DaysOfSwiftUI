@@ -54,13 +54,13 @@ struct WordScramble: View {
             newWord = ""
             return
         }
-
+        
         guard isPossible(word: answer) else {
             wordError(title: "Word not recognized", message: "You can't just make them up, you know!")
             newWord = ""
             return
         }
-
+        
         guard isReal(word: answer) else {
             wordError(title: "Word not possible", message: "That isn't a real word.")
             newWord = ""
@@ -72,6 +72,9 @@ struct WordScramble: View {
     }
     
     func startGame() {
+        usedWords = [String]()
+        rootWord = ""
+        newWord = ""
         if let startWordsURL = Bundle.main.url(forResource: "start", withExtension: "txt") {
             if let startWords = try? String(contentsOf: startWordsURL){
                 let allWords = startWords.components(separatedBy: "\n")

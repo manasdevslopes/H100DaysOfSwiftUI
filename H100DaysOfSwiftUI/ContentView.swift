@@ -11,8 +11,9 @@ struct ContentView: View {
     let context = Persistent.persistentContainer.viewContext
     
     var body: some View {
-        BookWorm()
-            .environment(\.managedObjectContext, context)
+//        FilteringFetchRequestUsingNSPredicate()
+//            .environment(\.managedObjectContext, context)
+        WordScramble()
     }
 }
 

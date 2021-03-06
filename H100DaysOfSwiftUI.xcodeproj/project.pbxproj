@@ -68,6 +68,13 @@
 		FD8F52EB25C03E0A0011A0F9 /* viewComposition.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8F52EA25C03E0A0011A0F9 /* viewComposition.swift */; };
 		FD8F52F025C03EE60011A0F9 /* CustomModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8F52EF25C03EE60011A0F9 /* CustomModifier.swift */; };
 		FD8F52F525C041C30011A0F9 /* CustomContainers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8F52F425C041C30011A0F9 /* CustomContainers.swift */; };
+		FDA0F6DD25EE846B0088FABA /* SlashSotSelf.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA0F6DC25EE846B0088FABA /* SlashSotSelf.swift */; };
+		FDA0F6E225EE863A0088FABA /* Hashables.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA0F6E125EE863A0088FABA /* Hashables.swift */; };
+		FDA0F6EB25EE8E8D0088FABA /* Movie+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA0F6E925EE8E8D0088FABA /* Movie+CoreDataClass.swift */; };
+		FDA0F6EC25EE8E8D0088FABA /* Movie+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA0F6EA25EE8E8D0088FABA /* Movie+CoreDataProperties.swift */; };
+		FDA0F6F125EE91230088FABA /* ConditionalsavingofNSManagedObjectContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA0F6F025EE91230088FABA /* ConditionalsavingofNSManagedObjectContext.swift */; };
+		FDA0F6F625EE91EF0088FABA /* EnsuringCoreDataObjectsAreUniqueUsingConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA0F6F525EE91EF0088FABA /* EnsuringCoreDataObjectsAreUniqueUsingConstraints.swift */; };
+		FDA0F70225EE990E0088FABA /* FilteringFetchRequestUsingNSPredicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA0F70125EE990E0088FABA /* FilteringFetchRequestUsingNSPredicate.swift */; };
 		FDA6D48B25C99B9000B3DB9D /* NavigationLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA6D48A25C99B9000B3DB9D /* NavigationLinks.swift */; };
 		FDA6D49025C99D7B00B3DB9D /* HierarchicalCodableData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA6D48F25C99D7B00B3DB9D /* HierarchicalCodableData.swift */; };
 		FDA6D49525C9A2FE00B3DB9D /* Moonshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA6D49425C9A2FD00B3DB9D /* Moonshot.swift */; };
@@ -172,6 +179,13 @@
 		FD8F52EA25C03E0A0011A0F9 /* viewComposition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewComposition.swift; sourceTree = "<group>"; };
 		FD8F52EF25C03EE60011A0F9 /* CustomModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModifier.swift; sourceTree = "<group>"; };
 		FD8F52F425C041C30011A0F9 /* CustomContainers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomContainers.swift; sourceTree = "<group>"; };
+		FDA0F6DC25EE846B0088FABA /* SlashSotSelf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlashSotSelf.swift; sourceTree = "<group>"; };
+		FDA0F6E125EE863A0088FABA /* Hashables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hashables.swift; sourceTree = "<group>"; };
+		FDA0F6E925EE8E8D0088FABA /* Movie+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Movie+CoreDataClass.swift"; sourceTree = "<group>"; };
+		FDA0F6EA25EE8E8D0088FABA /* Movie+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Movie+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		FDA0F6F025EE91230088FABA /* ConditionalsavingofNSManagedObjectContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConditionalsavingofNSManagedObjectContext.swift; sourceTree = "<group>"; };
+		FDA0F6F525EE91EF0088FABA /* EnsuringCoreDataObjectsAreUniqueUsingConstraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnsuringCoreDataObjectsAreUniqueUsingConstraints.swift; sourceTree = "<group>"; };
+		FDA0F70125EE990E0088FABA /* FilteringFetchRequestUsingNSPredicate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilteringFetchRequestUsingNSPredicate.swift; sourceTree = "<group>"; };
 		FDA6D48A25C99B9000B3DB9D /* NavigationLinks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationLinks.swift; sourceTree = "<group>"; };
 		FDA6D48F25C99D7B00B3DB9D /* HierarchicalCodableData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HierarchicalCodableData.swift; sourceTree = "<group>"; };
 		FDA6D49425C9A2FD00B3DB9D /* Moonshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Moonshot.swift; sourceTree = "<group>"; };
@@ -239,6 +253,7 @@
 		FD07FEF725BD954700A02404 /* H100DaysOfSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				FDA0F6DB25EE844A0088FABA /* Project12 */,
 				FD5B503125D4290100D0F0EE /* Project11 */,
 				FD33353325CFFDC400385254 /* Project10 */,
 				FD88848D25CEB136003AD159 /* Project9 */,
@@ -419,6 +434,20 @@
 			path = Project3;
 			sourceTree = "<group>";
 		};
+		FDA0F6DB25EE844A0088FABA /* Project12 */ = {
+			isa = PBXGroup;
+			children = (
+				FDA0F6E925EE8E8D0088FABA /* Movie+CoreDataClass.swift */,
+				FDA0F6EA25EE8E8D0088FABA /* Movie+CoreDataProperties.swift */,
+				FDA0F6DC25EE846B0088FABA /* SlashSotSelf.swift */,
+				FDA0F6E125EE863A0088FABA /* Hashables.swift */,
+				FDA0F6F025EE91230088FABA /* ConditionalsavingofNSManagedObjectContext.swift */,
+				FDA0F6F525EE91EF0088FABA /* EnsuringCoreDataObjectsAreUniqueUsingConstraints.swift */,
+				FDA0F70125EE990E0088FABA /* FilteringFetchRequestUsingNSPredicate.swift */,
+			);
+			path = Project12;
+			sourceTree = "<group>";
+		};
 		FDAC849125C6D8EB0015D268 /* Project7 */ = {
 			isa = PBXGroup;
 			children = (
@@ -577,11 +606,13 @@
 				FD33354025D0053C00385254 /* URLSessionSendingRecievingCodableData.swift in Sources */,
 				FD07FF3225BD9A8F00A02404 /* state.swift in Sources */,
 				FD5B503325D4298300D0F0EE /* CustomComponentWithBinding.swift in Sources */,
+				FDA0F70225EE990E0088FABA /* FilteringFetchRequestUsingNSPredicate.swift in Sources */,
 				FD11F7C225CC5EF7008A1D26 /* AstronautView.swift in Sources */,
 				FDAC849825C6DAF40015D268 /* StateWithObservedObject.swift in Sources */,
 				FDA6D49025C99D7B00B3DB9D /* HierarchicalCodableData.swift in Sources */,
 				FD88848F25CEB14E003AD159 /* CreatingCustomPaths.swift in Sources */,
 				FD77BCB225C5869F006C2869 /* ImplicitAnimation.swift in Sources */,
+				FDA0F6EC25EE8E8D0088FABA /* Movie+CoreDataProperties.swift in Sources */,
 				FDAC84B625C7012B0015D268 /* AddView.swift in Sources */,
 				FDA6D48B25C99B9000B3DB9D /* NavigationLinks.swift in Sources */,
 				FD33354525D00F5400385254 /* ValidatingDisablingForm.swift in Sources */,
@@ -598,7 +629,9 @@
 				FD1C192925C84DCB00C91734 /* ResizeImageUsingGeometryReader.swift in Sources */,
 				FD88849925CEBAD3003AD159 /* StrokeBorder.swift in Sources */,
 				FD53A1E125D9525600D807D6 /* EmojiRatingView.swift in Sources */,
+				FDA0F6DD25EE846B0088FABA /* SlashSotSelf.swift in Sources */,
 				FD53A1DC25D94C6B00D807D6 /* RatingView.swift in Sources */,
+				FDA0F6F625EE91EF0088FABA /* EnsuringCoreDataObjectsAreUniqueUsingConstraints.swift in Sources */,
 				FD8884A625CEDC05003AD159 /* ImagePaints.swift in Sources */,
 				FD33354A25D0346300385254 /* Order.swift in Sources */,
 				FD07FF2D25BD97E900A02404 /* Day 16 NavigationView.swift in Sources */,
@@ -625,12 +658,15 @@
 				FD17B04C25D590A9007213B1 /* CombineCoreDataWithSwiftUI.swift in Sources */,
 				FDAC84A725C6EAF30015D268 /* UserDefaultStoreData.swift in Sources */,
 				FDA6D4A625C9A78E00B3DB9D /* Astronaut.swift in Sources */,
+				FDA0F6EB25EE8E8D0088FABA /* Movie+CoreDataClass.swift in Sources */,
 				FD77BCBC25C58BC9006C2869 /* AnimatingBinding.swift in Sources */,
 				FD11CCDF25D1852400A035FD /* CheckoutView.swift in Sources */,
 				FD8F52EB25C03E0A0011A0F9 /* viewComposition.swift in Sources */,
 				FD8884BB25CEEC55003AD159 /* AnimatablePairs.swift in Sources */,
 				FD33355425D03A9900385254 /* AddressView.swift in Sources */,
+				FDA0F6E225EE863A0088FABA /* Hashables.swift in Sources */,
 				FD5B503825D42D1600D0F0EE /* SizeClassesWithAnyViewTypeErasure.swift in Sources */,
+				FDA0F6F125EE91230088FABA /* ConditionalsavingofNSManagedObjectContext.swift in Sources */,
 				FD77BCC125C58E73006C2869 /* ExplicitAnimation.swift in Sources */,
 				FD8F52F025C03EE60011A0F9 /* CustomModifier.swift in Sources */,
 				FD53A1C625D9426F00D807D6 /* BookWorm.swift in Sources */,
@@ -723,7 +759,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -778,7 +814,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

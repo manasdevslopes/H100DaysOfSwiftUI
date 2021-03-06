@@ -31,8 +31,13 @@ struct BetterRest: View {
             })
         }
     
+    
     var body: some View {
-        NavigationView {
+        let now = Date()
+        let tomorrow = Date().addingTimeInterval(86400)
+        let range = now ... tomorrow
+
+        return NavigationView {
             Form {
                 VStack(alignment: .leading, spacing: 0) {
                     Text("When do you want to wake up?")
