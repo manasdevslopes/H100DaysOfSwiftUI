@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ExpenseItem: Identifiable, Codable {
-    let id = UUID()
+    var id = UUID()
     let name: String
     let type: String
     let amount: Int
@@ -51,8 +51,7 @@ struct iExpense: View {
                 //                }
                 ForEach(expenses.items) { item in
                     HStack {
-                        Text(item.name)
-                        Image(systemName: "\(item.amount).circle")
+                        Image(systemName: "triangle")
                         VStack(alignment: .leading) {
                             Text(item.name)
                                 .font(.headline)

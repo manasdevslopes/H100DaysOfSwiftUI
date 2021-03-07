@@ -22,6 +22,9 @@ struct OnDelete: View {
     //                    removeRows(at: indexSet)
     //                })
                     .onDelete(perform: removeRows)
+                    .onMove { (source: IndexSet, destination: Int) in
+                                       numbers.move(fromOffsets: source, toOffset: destination)
+                                   }
                 }
                 
                 Button("Add Number") {
