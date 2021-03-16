@@ -35,7 +35,7 @@ struct BetterRest: View {
     var body: some View {
         let now = Date()
         let tomorrow = Date().addingTimeInterval(86400)
-        let range = now ... tomorrow
+        let _ = now ... tomorrow
 
         return NavigationView {
             Form {

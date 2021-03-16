@@ -78,6 +78,9 @@ struct iExpense: View {
             }
         }
     }
+    
+    /// <#Description#>
+    /// - Parameter offsets: <#offsets description#>
     func removeItems(at offsets: IndexSet) {
         expenses.items.remove(atOffsets: offsets)
     }
