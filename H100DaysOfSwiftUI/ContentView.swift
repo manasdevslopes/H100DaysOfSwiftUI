@@ -13,7 +13,8 @@ struct ContentView: View {
     var body: some View {
 //        FilteringFetchRequestUsingNSPredicate()
 //            .environment(\.managedObjectContext, context)
-        iExpense()
+        OneToManyRelationship()
+            .environment(\.managedObjectContext, context)
     }
 }
 

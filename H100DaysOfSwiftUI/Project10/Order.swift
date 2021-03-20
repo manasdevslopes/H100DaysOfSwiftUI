@@ -35,7 +35,7 @@ class Order: ObservableObject, Codable {
     
     //Validation for checkout Button
     var hasValidAddress: Bool {
-        if name.isEmpty || streetAddress.isEmpty || city.isEmpty || zip.isEmpty {
+        if name.isEmpty || streetAddress.isEmpty || city.isEmpty || (zip.count != 6)  {
             return false
         }
         

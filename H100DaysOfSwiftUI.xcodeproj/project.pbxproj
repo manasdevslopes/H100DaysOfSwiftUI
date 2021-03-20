@@ -22,7 +22,6 @@
 		FD11F7BD25CC4680008A1D26 /* MissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD11F7BC25CC4680008A1D26 /* MissionView.swift */; };
 		FD11F7C225CC5EF7008A1D26 /* AstronautView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD11F7C125CC5EF7008A1D26 /* AstronautView.swift */; };
 		FD17B04C25D590A9007213B1 /* CombineCoreDataWithSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD17B04B25D590A9007213B1 /* CombineCoreDataWithSwiftUI.swift */; };
-		FD17B05525D590F1007213B1 /* MyModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FD17B05325D590F1007213B1 /* MyModel.xcdatamodeld */; };
 		FD17B05A25D59145007213B1 /* Persistent.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD17B05925D59145007213B1 /* Persistent.swift */; };
 		FD1C192925C84DCB00C91734 /* ResizeImageUsingGeometryReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1C192825C84DCB00C91734 /* ResizeImageUsingGeometryReader.swift */; };
 		FD1C192F25C8543400C91734 /* ScrollViewWithScrollingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1C192E25C8543400C91734 /* ScrollViewWithScrollingData.swift */; };
@@ -55,6 +54,16 @@
 		FD8429C125C463D100D9B0DF /* WorkingWithStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8429C025C463D100D9B0DF /* WorkingWithStrings.swift */; };
 		FD8429C625C4684A00D9B0DF /* WordScramble.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8429C525C4684900D9B0DF /* WordScramble.swift */; };
 		FD8429CB25C46F1800D9B0DF /* start.txt in Resources */ = {isa = PBXBuildFile; fileRef = FD8429CA25C46F1800D9B0DF /* start.txt */; };
+		FD88811C26064C9B0019CE17 /* DynamicFiltering.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD88811B26064C9B0019CE17 /* DynamicFiltering.swift */; };
+		FD88812226064D3F0019CE17 /* Singer+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD88812026064D3F0019CE17 /* Singer+CoreDataClass.swift */; };
+		FD88812326064D3F0019CE17 /* Singer+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD88812126064D3F0019CE17 /* Singer+CoreDataProperties.swift */; };
+		FD88813226064F220019CE17 /* MyModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FD88813026064F220019CE17 /* MyModel.xcdatamodeld */; };
+		FD88813D26064FB60019CE17 /* FilteredList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD88813C26064FB60019CE17 /* FilteredList.swift */; };
+		FD888145260654E90019CE17 /* Candy+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD888141260654E90019CE17 /* Candy+CoreDataClass.swift */; };
+		FD888146260654E90019CE17 /* Candy+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD888142260654E90019CE17 /* Candy+CoreDataProperties.swift */; };
+		FD888147260654E90019CE17 /* Country+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD888143260654E90019CE17 /* Country+CoreDataClass.swift */; };
+		FD888148260654E90019CE17 /* Country+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD888144260654E90019CE17 /* Country+CoreDataProperties.swift */; };
+		FD88814D2606564D0019CE17 /* OneToManyRelationship.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD88814C2606564D0019CE17 /* OneToManyRelationship.swift */; };
 		FD88848F25CEB14E003AD159 /* CreatingCustomPaths.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD88848E25CEB14E003AD159 /* CreatingCustomPaths.swift */; };
 		FD88849425CEB592003AD159 /* PathVsShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD88849325CEB592003AD159 /* PathVsShapes.swift */; };
 		FD88849925CEBAD3003AD159 /* StrokeBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD88849825CEBAD3003AD159 /* StrokeBorder.swift */; };
@@ -133,7 +142,6 @@
 		FD11F7BC25CC4680008A1D26 /* MissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionView.swift; sourceTree = "<group>"; };
 		FD11F7C125CC5EF7008A1D26 /* AstronautView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautView.swift; sourceTree = "<group>"; };
 		FD17B04B25D590A9007213B1 /* CombineCoreDataWithSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineCoreDataWithSwiftUI.swift; sourceTree = "<group>"; };
-		FD17B05425D590F1007213B1 /* BookWorm.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BookWorm.xcdatamodel; sourceTree = "<group>"; };
 		FD17B05925D59145007213B1 /* Persistent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistent.swift; sourceTree = "<group>"; };
 		FD1C192825C84DCB00C91734 /* ResizeImageUsingGeometryReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResizeImageUsingGeometryReader.swift; sourceTree = "<group>"; };
 		FD1C192E25C8543400C91734 /* ScrollViewWithScrollingData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewWithScrollingData.swift; sourceTree = "<group>"; };
@@ -166,6 +174,16 @@
 		FD8429C025C463D100D9B0DF /* WorkingWithStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkingWithStrings.swift; sourceTree = "<group>"; };
 		FD8429C525C4684900D9B0DF /* WordScramble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordScramble.swift; sourceTree = "<group>"; };
 		FD8429CA25C46F1800D9B0DF /* start.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = start.txt; sourceTree = "<group>"; };
+		FD88811B26064C9B0019CE17 /* DynamicFiltering.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicFiltering.swift; sourceTree = "<group>"; };
+		FD88812026064D3F0019CE17 /* Singer+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Singer+CoreDataClass.swift"; sourceTree = "<group>"; };
+		FD88812126064D3F0019CE17 /* Singer+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Singer+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		FD88813126064F220019CE17 /* BookWorm.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BookWorm.xcdatamodel; sourceTree = "<group>"; };
+		FD88813C26064FB60019CE17 /* FilteredList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilteredList.swift; sourceTree = "<group>"; };
+		FD888141260654E90019CE17 /* Candy+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Candy+CoreDataClass.swift"; sourceTree = "<group>"; };
+		FD888142260654E90019CE17 /* Candy+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Candy+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		FD888143260654E90019CE17 /* Country+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Country+CoreDataClass.swift"; sourceTree = "<group>"; };
+		FD888144260654E90019CE17 /* Country+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Country+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		FD88814C2606564D0019CE17 /* OneToManyRelationship.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneToManyRelationship.swift; sourceTree = "<group>"; };
 		FD88848E25CEB14E003AD159 /* CreatingCustomPaths.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatingCustomPaths.swift; sourceTree = "<group>"; };
 		FD88849325CEB592003AD159 /* PathVsShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathVsShapes.swift; sourceTree = "<group>"; };
 		FD88849825CEBAD3003AD159 /* StrokeBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrokeBorder.swift; sourceTree = "<group>"; };
@@ -271,10 +289,10 @@
 				FD07FF0125BD954E00A02404 /* Info.plist */,
 				FD474F7E25C1BE7900FE88E4 /* SleepCalculator.mlmodel */,
 				FD8429CA25C46F1800D9B0DF /* start.txt */,
+				FD88813026064F220019CE17 /* MyModel.xcdatamodeld */,
 				FDA6D49A25C9A37500B3DB9D /* astronauts.json */,
 				FDA6D49925C9A37400B3DB9D /* missions.json */,
 				FD07FEFE25BD954E00A02404 /* Preview Content */,
-				FD17B05325D590F1007213B1 /* MyModel.xcdatamodeld */,
 				FD17B05925D59145007213B1 /* Persistent.swift */,
 			);
 			path = H100DaysOfSwiftUI;
@@ -437,6 +455,12 @@
 		FDA0F6DB25EE844A0088FABA /* Project12 */ = {
 			isa = PBXGroup;
 			children = (
+				FD888141260654E90019CE17 /* Candy+CoreDataClass.swift */,
+				FD888142260654E90019CE17 /* Candy+CoreDataProperties.swift */,
+				FD888143260654E90019CE17 /* Country+CoreDataClass.swift */,
+				FD888144260654E90019CE17 /* Country+CoreDataProperties.swift */,
+				FD88812126064D3F0019CE17 /* Singer+CoreDataProperties.swift */,
+				FD88812026064D3F0019CE17 /* Singer+CoreDataClass.swift */,
 				FDA0F6E925EE8E8D0088FABA /* Movie+CoreDataClass.swift */,
 				FDA0F6EA25EE8E8D0088FABA /* Movie+CoreDataProperties.swift */,
 				FDA0F6DC25EE846B0088FABA /* SlashSotSelf.swift */,
@@ -444,6 +468,9 @@
 				FDA0F6F025EE91230088FABA /* ConditionalsavingofNSManagedObjectContext.swift */,
 				FDA0F6F525EE91EF0088FABA /* EnsuringCoreDataObjectsAreUniqueUsingConstraints.swift */,
 				FDA0F70125EE990E0088FABA /* FilteringFetchRequestUsingNSPredicate.swift */,
+				FD88811B26064C9B0019CE17 /* DynamicFiltering.swift */,
+				FD88813C26064FB60019CE17 /* FilteredList.swift */,
+				FD88814C2606564D0019CE17 /* OneToManyRelationship.swift */,
 			);
 			path = Project12;
 			sourceTree = "<group>";
@@ -609,19 +636,23 @@
 				FDA0F70225EE990E0088FABA /* FilteringFetchRequestUsingNSPredicate.swift in Sources */,
 				FD11F7C225CC5EF7008A1D26 /* AstronautView.swift in Sources */,
 				FDAC849825C6DAF40015D268 /* StateWithObservedObject.swift in Sources */,
+				FD88813226064F220019CE17 /* MyModel.xcdatamodeld in Sources */,
 				FDA6D49025C99D7B00B3DB9D /* HierarchicalCodableData.swift in Sources */,
 				FD88848F25CEB14E003AD159 /* CreatingCustomPaths.swift in Sources */,
 				FD77BCB225C5869F006C2869 /* ImplicitAnimation.swift in Sources */,
+				FD88812226064D3F0019CE17 /* Singer+CoreDataClass.swift in Sources */,
 				FDA0F6EC25EE8E8D0088FABA /* Movie+CoreDataProperties.swift in Sources */,
 				FDAC84B625C7012B0015D268 /* AddView.swift in Sources */,
 				FDA6D48B25C99B9000B3DB9D /* NavigationLinks.swift in Sources */,
 				FD33354525D00F5400385254 /* ValidatingDisablingForm.swift in Sources */,
+				FD888147260654E90019CE17 /* Country+CoreDataClass.swift in Sources */,
 				FD11F7BD25CC4680008A1D26 /* MissionView.swift in Sources */,
 				FD77BCC625C590AA006C2869 /* ControllingAnimationStack.swift in Sources */,
 				FDA6D4AB25C9A9AF00B3DB9D /* Mission.swift in Sources */,
 				FD8429BC25C4625500D9B0DF /* LoadingResourcesFromAppBundle.swift in Sources */,
 				FD33353525CFFDFF00385254 /* CodableConformancePublishedProperties.swift in Sources */,
 				FD77BCD525C59FBB006C2869 /* CustomTransitionWIthViewModifier.swift in Sources */,
+				FD88812326064D3F0019CE17 /* Singer+CoreDataProperties.swift in Sources */,
 				FDAC84B125C6F8BB0015D268 /* iExpense.swift in Sources */,
 				FD474F7225C1BA8800FE88E4 /* BetterRest.swift in Sources */,
 				FD8429C625C4684A00D9B0DF /* WordScramble.swift in Sources */,
@@ -631,6 +662,8 @@
 				FD53A1E125D9525600D807D6 /* EmojiRatingView.swift in Sources */,
 				FDA0F6DD25EE846B0088FABA /* SlashSotSelf.swift in Sources */,
 				FD53A1DC25D94C6B00D807D6 /* RatingView.swift in Sources */,
+				FD888146260654E90019CE17 /* Candy+CoreDataProperties.swift in Sources */,
+				FD88814D2606564D0019CE17 /* OneToManyRelationship.swift in Sources */,
 				FDA0F6F625EE91EF0088FABA /* EnsuringCoreDataObjectsAreUniqueUsingConstraints.swift in Sources */,
 				FD8884A625CEDC05003AD159 /* ImagePaints.swift in Sources */,
 				FD33354A25D0346300385254 /* Order.swift in Sources */,
@@ -638,9 +671,9 @@
 				FD8429B425C45CB000D9B0DF /* Lists.swift in Sources */,
 				FD5236FE25BF13BF00CEAA3B /* GuessTheFlag.swift in Sources */,
 				FDA6D49525C9A2FE00B3DB9D /* Moonshot.swift in Sources */,
+				FD88813D26064FB60019CE17 /* FilteredList.swift in Sources */,
 				FDAC84A225C6E7230015D268 /* OnDelete.swift in Sources */,
 				FD53A1D125D9440D00D807D6 /* AddBookView.swift in Sources */,
-				FD17B05525D590F1007213B1 /* MyModel.xcdatamodeld in Sources */,
 				FD07FF2825BD96DC00A02404 /* Day16.swift in Sources */,
 				FD77BCCB25C59770006C2869 /* AnimatingGesture.swift in Sources */,
 				FD8884AC25CEE5F2003AD159 /* MetalRendering.swift in Sources */,
@@ -657,13 +690,16 @@
 				FD07FF3C25BDA20800A02404 /* project.swift in Sources */,
 				FD17B04C25D590A9007213B1 /* CombineCoreDataWithSwiftUI.swift in Sources */,
 				FDAC84A725C6EAF30015D268 /* UserDefaultStoreData.swift in Sources */,
+				FD88811C26064C9B0019CE17 /* DynamicFiltering.swift in Sources */,
 				FDA6D4A625C9A78E00B3DB9D /* Astronaut.swift in Sources */,
 				FDA0F6EB25EE8E8D0088FABA /* Movie+CoreDataClass.swift in Sources */,
 				FD77BCBC25C58BC9006C2869 /* AnimatingBinding.swift in Sources */,
 				FD11CCDF25D1852400A035FD /* CheckoutView.swift in Sources */,
 				FD8F52EB25C03E0A0011A0F9 /* viewComposition.swift in Sources */,
 				FD8884BB25CEEC55003AD159 /* AnimatablePairs.swift in Sources */,
+				FD888145260654E90019CE17 /* Candy+CoreDataClass.swift in Sources */,
 				FD33355425D03A9900385254 /* AddressView.swift in Sources */,
+				FD888148260654E90019CE17 /* Country+CoreDataProperties.swift in Sources */,
 				FDA0F6E225EE863A0088FABA /* Hashables.swift in Sources */,
 				FD5B503825D42D1600D0F0EE /* SizeClassesWithAnyViewTypeErasure.swift in Sources */,
 				FDA0F6F125EE91230088FABA /* ConditionalsavingofNSManagedObjectContext.swift in Sources */,
@@ -994,12 +1030,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		FD17B05325D590F1007213B1 /* MyModel.xcdatamodeld */ = {
+		FD88813026064F220019CE17 /* MyModel.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				FD17B05425D590F1007213B1 /* BookWorm.xcdatamodel */,
+				FD88813126064F220019CE17 /* BookWorm.xcdatamodel */,
 			);
-			currentVersion = FD17B05425D590F1007213B1 /* BookWorm.xcdatamodel */;
+			currentVersion = FD88813126064F220019CE17 /* BookWorm.xcdatamodel */;
 			path = MyModel.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
