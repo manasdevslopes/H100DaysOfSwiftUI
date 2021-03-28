@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct DynamicFiltering: View {
-    @Environment(\.managedObjectContext) var moc3
+    @Environment(\.managedObjectContext) var moc4
     @State private var lastNameFilter = "A"
     var body: some View {
         VStack {
@@ -19,19 +19,19 @@ struct DynamicFiltering: View {
                 Text("\(singer.wrappedFirstName) \(singer.wrappedLastName)")
             }
             Button("Add Examples") {
-                let taylor = Singer(context: self.moc3)
+                let taylor = Singer(context: self.moc4)
                 taylor.firstName = "Taylor"
                 taylor.lastName = "Swift"
                 
-                let ed = Singer(context: self.moc3)
+                let ed = Singer(context: self.moc4)
                 ed.firstName = "Ed"
                 ed.lastName = "Sheeran"
                 
-                let adele = Singer(context: self.moc3)
+                let adele = Singer(context: self.moc4)
                 adele.firstName = "Adele"
                 adele.lastName = "Adkins"
                 
-                try? self.moc3.save()
+                try? self.moc4.save()
             }
             
             Button("Show A") {

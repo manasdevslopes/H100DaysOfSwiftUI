@@ -8,7 +8,7 @@ import CoreData
 import SwiftUI
 
 struct EnsuringCoreDataObjectsAreUniqueUsingConstraints: View {
-    @Environment(\.managedObjectContext) var moc1
+    @Environment(\.managedObjectContext) var moc2
     
     @FetchRequest(entity: Wizard.entity(), sortDescriptors: []) var wizards: FetchedResults<Wizard>
     
@@ -19,13 +19,13 @@ struct EnsuringCoreDataObjectsAreUniqueUsingConstraints: View {
             }
             
             Button("Add") {
-                let wizard = Wizard(context: self.moc1)
+                let wizard = Wizard(context: self.moc2)
                 wizard.name = "Harry Potter"
             }
             
             Button("Save") {
                 do {
-                    try self.moc1.save()
+                    try self.moc2.save()
                 } catch {
                     print(error.localizedDescription)
                 }

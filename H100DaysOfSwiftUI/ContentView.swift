@@ -13,8 +13,9 @@ struct ContentView: View {
     var body: some View {
 //        FilteringFetchRequestUsingNSPredicate()
 //            .environment(\.managedObjectContext, context)
-        OneToManyRelationship()
-            .environment(\.managedObjectContext, context)
+//        EnsuringCoreDataObjectsAreUniqueUsingConstraints()
+//            .environment(\.managedObjectContext, context)
+        WrappingUIViewControllerInSwiftUIView()
     }
 }
 

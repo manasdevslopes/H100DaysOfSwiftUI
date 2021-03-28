@@ -101,6 +101,12 @@
 		FDAC84B125C6F8BB0015D268 /* iExpense.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAC84B025C6F8BB0015D268 /* iExpense.swift */; };
 		FDAC84B625C7012B0015D268 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAC84B525C7012B0015D268 /* AddView.swift */; };
 		FDAE8A6425E2B00D002089A2 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAE8A6325E2B00D002089A2 /* DetailView.swift */; };
+		FDEAE596260F0F7A0042B72B /* PropertyWrappersBecomesStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEAE595260F0F7A0042B72B /* PropertyWrappersBecomesStruct.swift */; };
+		FDEAE59B260F14B00042B72B /* CustomBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEAE59A260F14B00042B72B /* CustomBinding.swift */; };
+		FDEAE5A0260F24120042B72B /* ShowingMultipleOptionsWithActionSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEAE59F260F24120042B72B /* ShowingMultipleOptionsWithActionSheet.swift */; };
+		FDEAE5A5260F266B0042B72B /* IntegratingCoreImageWithSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEAE5A4260F266B0042B72B /* IntegratingCoreImageWithSwiftUI.swift */; };
+		FDEAE5AA260F3DB20042B72B /* WrappingUIViewControllerInSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEAE5A9260F3DB20042B72B /* WrappingUIViewControllerInSwiftUIView.swift */; };
+		FDEAE5AF260F3F530042B72B /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEAE5AE260F3F530042B72B /* ImagePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -221,6 +227,12 @@
 		FDAC84B025C6F8BB0015D268 /* iExpense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iExpense.swift; sourceTree = "<group>"; };
 		FDAC84B525C7012B0015D268 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 		FDAE8A6325E2B00D002089A2 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		FDEAE595260F0F7A0042B72B /* PropertyWrappersBecomesStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyWrappersBecomesStruct.swift; sourceTree = "<group>"; };
+		FDEAE59A260F14B00042B72B /* CustomBinding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBinding.swift; sourceTree = "<group>"; };
+		FDEAE59F260F24120042B72B /* ShowingMultipleOptionsWithActionSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowingMultipleOptionsWithActionSheet.swift; sourceTree = "<group>"; };
+		FDEAE5A4260F266B0042B72B /* IntegratingCoreImageWithSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntegratingCoreImageWithSwiftUI.swift; sourceTree = "<group>"; };
+		FDEAE5A9260F3DB20042B72B /* WrappingUIViewControllerInSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WrappingUIViewControllerInSwiftUIView.swift; sourceTree = "<group>"; };
+		FDEAE5AE260F3F530042B72B /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -271,6 +283,7 @@
 		FD07FEF725BD954700A02404 /* H100DaysOfSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				FDEAE591260F0D710042B72B /* Project13 */,
 				FDA0F6DB25EE844A0088FABA /* Project12 */,
 				FD5B503125D4290100D0F0EE /* Project11 */,
 				FD33353325CFFDC400385254 /* Project10 */,
@@ -490,6 +503,19 @@
 			path = Project7;
 			sourceTree = "<group>";
 		};
+		FDEAE591260F0D710042B72B /* Project13 */ = {
+			isa = PBXGroup;
+			children = (
+				FDEAE595260F0F7A0042B72B /* PropertyWrappersBecomesStruct.swift */,
+				FDEAE59A260F14B00042B72B /* CustomBinding.swift */,
+				FDEAE59F260F24120042B72B /* ShowingMultipleOptionsWithActionSheet.swift */,
+				FDEAE5A4260F266B0042B72B /* IntegratingCoreImageWithSwiftUI.swift */,
+				FDEAE5A9260F3DB20042B72B /* WrappingUIViewControllerInSwiftUIView.swift */,
+				FDEAE5AE260F3F530042B72B /* ImagePicker.swift */,
+			);
+			path = Project13;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -648,14 +674,17 @@
 				FD888147260654E90019CE17 /* Country+CoreDataClass.swift in Sources */,
 				FD11F7BD25CC4680008A1D26 /* MissionView.swift in Sources */,
 				FD77BCC625C590AA006C2869 /* ControllingAnimationStack.swift in Sources */,
+				FDEAE596260F0F7A0042B72B /* PropertyWrappersBecomesStruct.swift in Sources */,
 				FDA6D4AB25C9A9AF00B3DB9D /* Mission.swift in Sources */,
 				FD8429BC25C4625500D9B0DF /* LoadingResourcesFromAppBundle.swift in Sources */,
+				FDEAE59B260F14B00042B72B /* CustomBinding.swift in Sources */,
 				FD33353525CFFDFF00385254 /* CodableConformancePublishedProperties.swift in Sources */,
 				FD77BCD525C59FBB006C2869 /* CustomTransitionWIthViewModifier.swift in Sources */,
 				FD88812326064D3F0019CE17 /* Singer+CoreDataProperties.swift in Sources */,
 				FDAC84B125C6F8BB0015D268 /* iExpense.swift in Sources */,
 				FD474F7225C1BA8800FE88E4 /* BetterRest.swift in Sources */,
 				FD8429C625C4684A00D9B0DF /* WordScramble.swift in Sources */,
+				FDEAE5A5260F266B0042B72B /* IntegratingCoreImageWithSwiftUI.swift in Sources */,
 				FD77BCB725C58849006C2869 /* CustomizeAnimation.swift in Sources */,
 				FD1C192925C84DCB00C91734 /* ResizeImageUsingGeometryReader.swift in Sources */,
 				FD88849925CEBAD3003AD159 /* StrokeBorder.swift in Sources */,
@@ -673,6 +702,7 @@
 				FDA6D49525C9A2FE00B3DB9D /* Moonshot.swift in Sources */,
 				FD88813D26064FB60019CE17 /* FilteredList.swift in Sources */,
 				FDAC84A225C6E7230015D268 /* OnDelete.swift in Sources */,
+				FDEAE5AF260F3F530042B72B /* ImagePicker.swift in Sources */,
 				FD53A1D125D9440D00D807D6 /* AddBookView.swift in Sources */,
 				FD07FF2825BD96DC00A02404 /* Day16.swift in Sources */,
 				FD77BCCB25C59770006C2869 /* AnimatingGesture.swift in Sources */,
@@ -695,7 +725,9 @@
 				FDA0F6EB25EE8E8D0088FABA /* Movie+CoreDataClass.swift in Sources */,
 				FD77BCBC25C58BC9006C2869 /* AnimatingBinding.swift in Sources */,
 				FD11CCDF25D1852400A035FD /* CheckoutView.swift in Sources */,
+				FDEAE5AA260F3DB20042B72B /* WrappingUIViewControllerInSwiftUIView.swift in Sources */,
 				FD8F52EB25C03E0A0011A0F9 /* viewComposition.swift in Sources */,
+				FDEAE5A0260F24120042B72B /* ShowingMultipleOptionsWithActionSheet.swift in Sources */,
 				FD8884BB25CEEC55003AD159 /* AnimatablePairs.swift in Sources */,
 				FD888145260654E90019CE17 /* Candy+CoreDataClass.swift in Sources */,
 				FD33355425D03A9900385254 /* AddressView.swift in Sources */,

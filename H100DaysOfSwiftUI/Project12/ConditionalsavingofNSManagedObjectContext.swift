@@ -8,12 +8,12 @@
 import SwiftUI
 
 struct ConditionalsavingofNSManagedObjectContext: View {
-    @Environment(\.managedObjectContext) var moc
+    @Environment(\.managedObjectContext) var moc1
     
     var body: some View {
         Button("Save") {
-            if self.moc.hasChanges {
-                try? self.moc.save()
+            if self.moc1.hasChanges {
+                try? self.moc1.save()
             }
         }
     }
