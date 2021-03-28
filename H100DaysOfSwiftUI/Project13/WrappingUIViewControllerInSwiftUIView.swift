@@ -46,6 +46,8 @@ struct WrappingUIViewControllerInSwiftUIView: View {
         let imageSaver = ImageSaver()
         imageSaver.writeToPhotoAlbum(image: inputImage)
         
+        self.inputImage = nil
+        
     }
 }
 

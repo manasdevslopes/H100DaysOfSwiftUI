@@ -107,6 +107,8 @@
 		FDEAE5A5260F266B0042B72B /* IntegratingCoreImageWithSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEAE5A4260F266B0042B72B /* IntegratingCoreImageWithSwiftUI.swift */; };
 		FDEAE5AA260F3DB20042B72B /* WrappingUIViewControllerInSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEAE5A9260F3DB20042B72B /* WrappingUIViewControllerInSwiftUIView.swift */; };
 		FDEAE5AF260F3F530042B72B /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEAE5AE260F3F530042B72B /* ImagePicker.swift */; };
+		FDEAE5D72610A4110042B72B /* InstaFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEAE5D62610A4110042B72B /* InstaFilter.swift */; };
+		FDEAE5E72610CEB00042B72B /* ImageSaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEAE5E62610CEB00042B72B /* ImageSaver.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -233,6 +235,8 @@
 		FDEAE5A4260F266B0042B72B /* IntegratingCoreImageWithSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntegratingCoreImageWithSwiftUI.swift; sourceTree = "<group>"; };
 		FDEAE5A9260F3DB20042B72B /* WrappingUIViewControllerInSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WrappingUIViewControllerInSwiftUIView.swift; sourceTree = "<group>"; };
 		FDEAE5AE260F3F530042B72B /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		FDEAE5D62610A4110042B72B /* InstaFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaFilter.swift; sourceTree = "<group>"; };
+		FDEAE5E62610CEB00042B72B /* ImageSaver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSaver.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -511,6 +515,8 @@
 				FDEAE59F260F24120042B72B /* ShowingMultipleOptionsWithActionSheet.swift */,
 				FDEAE5A4260F266B0042B72B /* IntegratingCoreImageWithSwiftUI.swift */,
 				FDEAE5A9260F3DB20042B72B /* WrappingUIViewControllerInSwiftUIView.swift */,
+				FDEAE5D62610A4110042B72B /* InstaFilter.swift */,
+				FDEAE5E62610CEB00042B72B /* ImageSaver.swift */,
 				FDEAE5AE260F3F530042B72B /* ImagePicker.swift */,
 			);
 			path = Project13;
@@ -675,6 +681,7 @@
 				FD11F7BD25CC4680008A1D26 /* MissionView.swift in Sources */,
 				FD77BCC625C590AA006C2869 /* ControllingAnimationStack.swift in Sources */,
 				FDEAE596260F0F7A0042B72B /* PropertyWrappersBecomesStruct.swift in Sources */,
+				FDEAE5D72610A4110042B72B /* InstaFilter.swift in Sources */,
 				FDA6D4AB25C9A9AF00B3DB9D /* Mission.swift in Sources */,
 				FD8429BC25C4625500D9B0DF /* LoadingResourcesFromAppBundle.swift in Sources */,
 				FDEAE59B260F14B00042B72B /* CustomBinding.swift in Sources */,
@@ -689,6 +696,7 @@
 				FD1C192925C84DCB00C91734 /* ResizeImageUsingGeometryReader.swift in Sources */,
 				FD88849925CEBAD3003AD159 /* StrokeBorder.swift in Sources */,
 				FD53A1E125D9525600D807D6 /* EmojiRatingView.swift in Sources */,
+				FDEAE5E72610CEB00042B72B /* ImageSaver.swift in Sources */,
 				FDA0F6DD25EE846B0088FABA /* SlashSotSelf.swift in Sources */,
 				FD53A1DC25D94C6B00D807D6 /* RatingView.swift in Sources */,
 				FD888146260654E90019CE17 /* Candy+CoreDataProperties.swift in Sources */,
