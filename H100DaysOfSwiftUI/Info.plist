@@ -48,5 +48,7 @@
 	</array>
 	<key>NSPhotoLibraryAddUsageDescription</key>
 	<string>We want to save the filtered photos</string>
+	<key>NSFaceIDUsageDescription</key>
+	<string>Please authenticate yourself to unlock your places.</string>
 </dict>
 </plist>

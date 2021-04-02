@@ -35,6 +35,13 @@
 		FD474F7225C1BA8800FE88E4 /* BetterRest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD474F7125C1BA8800FE88E4 /* BetterRest.swift */; };
 		FD474F7F25C1BE7900FE88E4 /* SleepCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = FD474F7E25C1BE7900FE88E4 /* SleepCalculator.mlmodel */; };
 		FD5236FE25BF13BF00CEAA3B /* GuessTheFlag.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5236FD25BF13BF00CEAA3B /* GuessTheFlag.swift */; };
+		FD53189B26170E9600F6ABCF /* MapViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD53189A26170E9600F6ABCF /* MapViews.swift */; };
+		FD5318AE26172FA000F6ABCF /* UsingTouchIDAndFaceID.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5318AD26172FA000F6ABCF /* UsingTouchIDAndFaceID.swift */; };
+		FD5318B326173AD400F6ABCF /* AdvancedMKMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5318B226173AD400F6ABCF /* AdvancedMKMapView.swift */; };
+		FD5318B82617414700F6ABCF /* AdvancedMKMapViewSecond.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5318B72617414700F6ABCF /* AdvancedMKMapViewSecond.swift */; };
+		FD5318BE2617571000F6ABCF /* NKPointAnnotation-ObservableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5318BD2617571000F6ABCF /* NKPointAnnotation-ObservableObject.swift */; };
+		FD5318C32617581F00F6ABCF /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5318C22617581F00F6ABCF /* EditView.swift */; };
+		FD5318C82617654E00F6ABCF /* Results.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5318C72617654E00F6ABCF /* Results.swift */; };
 		FD53A1C625D9426F00D807D6 /* BookWorm.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD53A1C525D9426F00D807D6 /* BookWorm.swift */; };
 		FD53A1D125D9440D00D807D6 /* AddBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD53A1D025D9440D00D807D6 /* AddBookView.swift */; };
 		FD53A1DC25D94C6B00D807D6 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD53A1DB25D94C6B00D807D6 /* RatingView.swift */; };
@@ -101,6 +108,9 @@
 		FDAC84B125C6F8BB0015D268 /* iExpense.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAC84B025C6F8BB0015D268 /* iExpense.swift */; };
 		FDAC84B625C7012B0015D268 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAC84B525C7012B0015D268 /* AddView.swift */; };
 		FDAE8A6425E2B00D002089A2 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAE8A6325E2B00D002089A2 /* DetailView.swift */; };
+		FDBD120E2616F5180013B9FD /* 1AddingConformanceToComparableForCustomTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBD120D2616F5180013B9FD /* 1AddingConformanceToComparableForCustomTypes.swift */; };
+		FDBD12132616FAEB0013B9FD /* WritingDataToTheDocumentsDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBD12122616FAEB0013B9FD /* WritingDataToTheDocumentsDirectory.swift */; };
+		FDBD12182617058B0013B9FD /* SwitchingViewStatesWithEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBD12172617058B0013B9FD /* SwitchingViewStatesWithEnums.swift */; };
 		FDEAE596260F0F7A0042B72B /* PropertyWrappersBecomesStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEAE595260F0F7A0042B72B /* PropertyWrappersBecomesStruct.swift */; };
 		FDEAE59B260F14B00042B72B /* CustomBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEAE59A260F14B00042B72B /* CustomBinding.swift */; };
 		FDEAE5A0260F24120042B72B /* ShowingMultipleOptionsWithActionSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEAE59F260F24120042B72B /* ShowingMultipleOptionsWithActionSheet.swift */; };
@@ -109,6 +119,7 @@
 		FDEAE5AF260F3F530042B72B /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEAE5AE260F3F530042B72B /* ImagePicker.swift */; };
 		FDEAE5D72610A4110042B72B /* InstaFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEAE5D62610A4110042B72B /* InstaFilter.swift */; };
 		FDEAE5E72610CEB00042B72B /* ImageSaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEAE5E62610CEB00042B72B /* ImageSaver.swift */; };
+		FDF7D06626177EC100AB00DD /* MKPointAnnotation-Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF7D06526177EC100AB00DD /* MKPointAnnotation-Codable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -163,6 +174,13 @@
 		FD474F7125C1BA8800FE88E4 /* BetterRest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterRest.swift; sourceTree = "<group>"; };
 		FD474F7E25C1BE7900FE88E4 /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SleepCalculator.mlmodel; sourceTree = "<group>"; };
 		FD5236FD25BF13BF00CEAA3B /* GuessTheFlag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessTheFlag.swift; sourceTree = "<group>"; };
+		FD53189A26170E9600F6ABCF /* MapViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViews.swift; sourceTree = "<group>"; };
+		FD5318AD26172FA000F6ABCF /* UsingTouchIDAndFaceID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsingTouchIDAndFaceID.swift; sourceTree = "<group>"; };
+		FD5318B226173AD400F6ABCF /* AdvancedMKMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedMKMapView.swift; sourceTree = "<group>"; };
+		FD5318B72617414700F6ABCF /* AdvancedMKMapViewSecond.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedMKMapViewSecond.swift; sourceTree = "<group>"; };
+		FD5318BD2617571000F6ABCF /* NKPointAnnotation-ObservableObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NKPointAnnotation-ObservableObject.swift"; sourceTree = "<group>"; };
+		FD5318C22617581F00F6ABCF /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
+		FD5318C72617654E00F6ABCF /* Results.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Results.swift; sourceTree = "<group>"; };
 		FD53A1C525D9426F00D807D6 /* BookWorm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookWorm.swift; sourceTree = "<group>"; };
 		FD53A1D025D9440D00D807D6 /* AddBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBookView.swift; sourceTree = "<group>"; };
 		FD53A1DB25D94C6B00D807D6 /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
@@ -229,6 +247,9 @@
 		FDAC84B025C6F8BB0015D268 /* iExpense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iExpense.swift; sourceTree = "<group>"; };
 		FDAC84B525C7012B0015D268 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 		FDAE8A6325E2B00D002089A2 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		FDBD120D2616F5180013B9FD /* 1AddingConformanceToComparableForCustomTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1AddingConformanceToComparableForCustomTypes.swift; sourceTree = "<group>"; };
+		FDBD12122616FAEB0013B9FD /* WritingDataToTheDocumentsDirectory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WritingDataToTheDocumentsDirectory.swift; sourceTree = "<group>"; };
+		FDBD12172617058B0013B9FD /* SwitchingViewStatesWithEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchingViewStatesWithEnums.swift; sourceTree = "<group>"; };
 		FDEAE595260F0F7A0042B72B /* PropertyWrappersBecomesStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyWrappersBecomesStruct.swift; sourceTree = "<group>"; };
 		FDEAE59A260F14B00042B72B /* CustomBinding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBinding.swift; sourceTree = "<group>"; };
 		FDEAE59F260F24120042B72B /* ShowingMultipleOptionsWithActionSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowingMultipleOptionsWithActionSheet.swift; sourceTree = "<group>"; };
@@ -237,6 +258,7 @@
 		FDEAE5AE260F3F530042B72B /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		FDEAE5D62610A4110042B72B /* InstaFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaFilter.swift; sourceTree = "<group>"; };
 		FDEAE5E62610CEB00042B72B /* ImageSaver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSaver.swift; sourceTree = "<group>"; };
+		FDF7D06526177EC100AB00DD /* MKPointAnnotation-Codable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MKPointAnnotation-Codable.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -287,6 +309,7 @@
 		FD07FEF725BD954700A02404 /* H100DaysOfSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				FDBD120C2616F3E20013B9FD /* Project14 */,
 				FDEAE591260F0D710042B72B /* Project13 */,
 				FDA0F6DB25EE844A0088FABA /* Project12 */,
 				FD5B503125D4290100D0F0EE /* Project11 */,
@@ -507,6 +530,24 @@
 			path = Project7;
 			sourceTree = "<group>";
 		};
+		FDBD120C2616F3E20013B9FD /* Project14 */ = {
+			isa = PBXGroup;
+			children = (
+				FDBD120D2616F5180013B9FD /* 1AddingConformanceToComparableForCustomTypes.swift */,
+				FDBD12122616FAEB0013B9FD /* WritingDataToTheDocumentsDirectory.swift */,
+				FDBD12172617058B0013B9FD /* SwitchingViewStatesWithEnums.swift */,
+				FD53189A26170E9600F6ABCF /* MapViews.swift */,
+				FD5318AD26172FA000F6ABCF /* UsingTouchIDAndFaceID.swift */,
+				FD5318B226173AD400F6ABCF /* AdvancedMKMapView.swift */,
+				FD5318B72617414700F6ABCF /* AdvancedMKMapViewSecond.swift */,
+				FD5318BD2617571000F6ABCF /* NKPointAnnotation-ObservableObject.swift */,
+				FD5318C72617654E00F6ABCF /* Results.swift */,
+				FD5318C22617581F00F6ABCF /* EditView.swift */,
+				FDF7D06526177EC100AB00DD /* MKPointAnnotation-Codable.swift */,
+			);
+			path = Project14;
+			sourceTree = "<group>";
+		};
 		FDEAE591260F0D710042B72B /* Project13 */ = {
 			isa = PBXGroup;
 			children = (
@@ -661,6 +702,7 @@
 				FD07FEF925BD954700A02404 /* H100DaysOfSwiftUIApp.swift in Sources */,
 				FDAE8A6425E2B00D002089A2 /* DetailView.swift in Sources */,
 				FD33354F25D035E800385254 /* CupCakes.swift in Sources */,
+				FD5318AE26172FA000F6ABCF /* UsingTouchIDAndFaceID.swift in Sources */,
 				FD17B05A25D59145007213B1 /* Persistent.swift in Sources */,
 				FD33354025D0053C00385254 /* URLSessionSendingRecievingCodableData.swift in Sources */,
 				FD07FF3225BD9A8F00A02404 /* state.swift in Sources */,
@@ -687,6 +729,7 @@
 				FDEAE59B260F14B00042B72B /* CustomBinding.swift in Sources */,
 				FD33353525CFFDFF00385254 /* CodableConformancePublishedProperties.swift in Sources */,
 				FD77BCD525C59FBB006C2869 /* CustomTransitionWIthViewModifier.swift in Sources */,
+				FDF7D06626177EC100AB00DD /* MKPointAnnotation-Codable.swift in Sources */,
 				FD88812326064D3F0019CE17 /* Singer+CoreDataProperties.swift in Sources */,
 				FDAC84B125C6F8BB0015D268 /* iExpense.swift in Sources */,
 				FD474F7225C1BA8800FE88E4 /* BetterRest.swift in Sources */,
@@ -700,13 +743,16 @@
 				FDA0F6DD25EE846B0088FABA /* SlashSotSelf.swift in Sources */,
 				FD53A1DC25D94C6B00D807D6 /* RatingView.swift in Sources */,
 				FD888146260654E90019CE17 /* Candy+CoreDataProperties.swift in Sources */,
+				FD5318B82617414700F6ABCF /* AdvancedMKMapViewSecond.swift in Sources */,
 				FD88814D2606564D0019CE17 /* OneToManyRelationship.swift in Sources */,
 				FDA0F6F625EE91EF0088FABA /* EnsuringCoreDataObjectsAreUniqueUsingConstraints.swift in Sources */,
 				FD8884A625CEDC05003AD159 /* ImagePaints.swift in Sources */,
+				FD5318BE2617571000F6ABCF /* NKPointAnnotation-ObservableObject.swift in Sources */,
 				FD33354A25D0346300385254 /* Order.swift in Sources */,
 				FD07FF2D25BD97E900A02404 /* Day 16 NavigationView.swift in Sources */,
 				FD8429B425C45CB000D9B0DF /* Lists.swift in Sources */,
 				FD5236FE25BF13BF00CEAA3B /* GuessTheFlag.swift in Sources */,
+				FD53189B26170E9600F6ABCF /* MapViews.swift in Sources */,
 				FDA6D49525C9A2FE00B3DB9D /* Moonshot.swift in Sources */,
 				FD88813D26064FB60019CE17 /* FilteredList.swift in Sources */,
 				FDAC84A225C6E7230015D268 /* OnDelete.swift in Sources */,
@@ -716,17 +762,22 @@
 				FD77BCCB25C59770006C2869 /* AnimatingGesture.swift in Sources */,
 				FD8884AC25CEE5F2003AD159 /* MetalRendering.swift in Sources */,
 				FD1C192F25C8543400C91734 /* ScrollViewWithScrollingData.swift in Sources */,
+				FDBD12182617058B0013B9FD /* SwitchingViewStatesWithEnums.swift in Sources */,
 				FDA6D4A125C9A4D000B3DB9D /* Bundle-Decodable.swift in Sources */,
 				FD88849E25CEBE12003AD159 /* CGAffineTransforms.swift in Sources */,
+				FDBD120E2616F5180013B9FD /* 1AddingConformanceToComparableForCustomTypes.swift in Sources */,
 				FD77BCD025C59CE6006C2869 /* ShowHideViewAnim.swift in Sources */,
 				FDAC84AC25C6F5150015D268 /* CodableSwiftObjects.swift in Sources */,
 				FD8884B125CEE7D7003AD159 /* BlursBlending.swift in Sources */,
 				FD8429C125C463D100D9B0DF /* WorkingWithStrings.swift in Sources */,
+				FD5318B326173AD400F6ABCF /* AdvancedMKMapView.swift in Sources */,
 				FD474F7F25C1BE7900FE88E4 /* SleepCalculator.mlmodel in Sources */,
+				FDBD12132616FAEB0013B9FD /* WritingDataToTheDocumentsDirectory.swift in Sources */,
 				FDAC849325C6D9FC0015D268 /* ClassVsStruct.swift in Sources */,
 				FDAC849D25C6DCE90015D268 /* ShowHideViews.swift in Sources */,
 				FD07FF3C25BDA20800A02404 /* project.swift in Sources */,
 				FD17B04C25D590A9007213B1 /* CombineCoreDataWithSwiftUI.swift in Sources */,
+				FD5318C82617654E00F6ABCF /* Results.swift in Sources */,
 				FDAC84A725C6EAF30015D268 /* UserDefaultStoreData.swift in Sources */,
 				FD88811C26064C9B0019CE17 /* DynamicFiltering.swift in Sources */,
 				FDA6D4A625C9A78E00B3DB9D /* Astronaut.swift in Sources */,
@@ -744,6 +795,7 @@
 				FD5B503825D42D1600D0F0EE /* SizeClassesWithAnyViewTypeErasure.swift in Sources */,
 				FDA0F6F125EE91230088FABA /* ConditionalsavingofNSManagedObjectContext.swift in Sources */,
 				FD77BCC125C58E73006C2869 /* ExplicitAnimation.swift in Sources */,
+				FD5318C32617581F00F6ABCF /* EditView.swift in Sources */,
 				FD8F52F025C03EE60011A0F9 /* CustomModifier.swift in Sources */,
 				FD53A1C625D9426F00D807D6 /* BookWorm.swift in Sources */,
 				FD88849425CEB592003AD159 /* PathVsShapes.swift in Sources */,

@@ -8,14 +8,14 @@
 import SwiftUI
 
 struct ContentView: View {
-    let context = Persistent.persistentContainer.viewContext
+    //    let context = Persistent.persistentContainer.viewContext
     
     var body: some View {
-//        FilteringFetchRequestUsingNSPredicate()
-//            .environment(\.managedObjectContext, context)
-//        EnsuringCoreDataObjectsAreUniqueUsingConstraints()
-//            .environment(\.managedObjectContext, context)
-        InstaFilter()
+        //        FilteringFetchRequestUsingNSPredicate()
+        //            .environment(\.managedObjectContext, context)
+        //        EnsuringCoreDataObjectsAreUniqueUsingConstraints()
+        //            .environment(\.managedObjectContext, context)
+        AdvancedMKMapViewSecond()
     }
 }
 
