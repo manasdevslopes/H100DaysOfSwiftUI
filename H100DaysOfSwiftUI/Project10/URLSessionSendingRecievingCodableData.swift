@@ -8,16 +8,16 @@
 import SwiftUI
 
 struct Response: Codable {
-    var results: [Result]
+    var results: [Result11]
 }
-struct Result: Codable {
+struct Result11: Codable {
     var trackId: Int
     var trackName: String
     var collectionName: String
 }
 
 struct URLSessionSendingRecievingCodableData: View {
-    @State var results = [Result]()
+    @State var results = [Result11]()
     
     var body: some View {
         List(results, id: \.trackId) {item in
