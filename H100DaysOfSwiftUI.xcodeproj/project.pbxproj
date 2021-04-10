@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -117,6 +117,10 @@
 		FDDE5D342620C24700AA99FF /* ResultType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDE5D332620C24700AA99FF /* ResultType.swift */; };
 		FDEA372A262197DA00E4FAF0 /* ManuallyPublishingObservableObjectChanges.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEA3729262197DA00E4FAF0 /* ManuallyPublishingObservableObjectChanges.swift */; };
 		FDEA372F26219B5100E4FAF0 /* ControllingImageInterpolation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEA372E26219B5100E4FAF0 /* ControllingImageInterpolation.swift */; };
+		FDEA373426219F1900E4FAF0 /* ContextMenus.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEA373326219F1800E4FAF0 /* ContextMenus.swift */; };
+		FDEA37392621A27A00E4FAF0 /* SchedulingLocalNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEA37382621A27A00E4FAF0 /* SchedulingLocalNotifications.swift */; };
+		FDEA373E2621ABA300E4FAF0 /* AddingSwiftPackageDependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEA373D2621ABA300E4FAF0 /* AddingSwiftPackageDependencies.swift */; };
+		FDEA37442621ACF700E4FAF0 /* SamplePackage in Frameworks */ = {isa = PBXBuildFile; productRef = FDEA37432621ACF700E4FAF0 /* SamplePackage */; };
 		FDEAE596260F0F7A0042B72B /* PropertyWrappersBecomesStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEAE595260F0F7A0042B72B /* PropertyWrappersBecomesStruct.swift */; };
 		FDEAE59B260F14B00042B72B /* CustomBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEAE59A260F14B00042B72B /* CustomBinding.swift */; };
 		FDEAE5A0260F24120042B72B /* ShowingMultipleOptionsWithActionSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEAE59F260F24120042B72B /* ShowingMultipleOptionsWithActionSheet.swift */; };
@@ -262,6 +266,9 @@
 		FDDE5D332620C24700AA99FF /* ResultType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultType.swift; sourceTree = "<group>"; };
 		FDEA3729262197DA00E4FAF0 /* ManuallyPublishingObservableObjectChanges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManuallyPublishingObservableObjectChanges.swift; sourceTree = "<group>"; };
 		FDEA372E26219B5100E4FAF0 /* ControllingImageInterpolation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllingImageInterpolation.swift; sourceTree = "<group>"; };
+		FDEA373326219F1800E4FAF0 /* ContextMenus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenus.swift; sourceTree = "<group>"; };
+		FDEA37382621A27A00E4FAF0 /* SchedulingLocalNotifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchedulingLocalNotifications.swift; sourceTree = "<group>"; };
+		FDEA373D2621ABA300E4FAF0 /* AddingSwiftPackageDependencies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingSwiftPackageDependencies.swift; sourceTree = "<group>"; };
 		FDEAE595260F0F7A0042B72B /* PropertyWrappersBecomesStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyWrappersBecomesStruct.swift; sourceTree = "<group>"; };
 		FDEAE59A260F14B00042B72B /* CustomBinding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBinding.swift; sourceTree = "<group>"; };
 		FDEAE59F260F24120042B72B /* ShowingMultipleOptionsWithActionSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowingMultipleOptionsWithActionSheet.swift; sourceTree = "<group>"; };
@@ -278,6 +285,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDEA37442621ACF700E4FAF0 /* SamplePackage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -469,6 +477,9 @@
 				FDDE5D332620C24700AA99FF /* ResultType.swift */,
 				FDEA3729262197DA00E4FAF0 /* ManuallyPublishingObservableObjectChanges.swift */,
 				FDEA372E26219B5100E4FAF0 /* ControllingImageInterpolation.swift */,
+				FDEA373326219F1800E4FAF0 /* ContextMenus.swift */,
+				FDEA37382621A27A00E4FAF0 /* SchedulingLocalNotifications.swift */,
+				FDEA373D2621ABA300E4FAF0 /* AddingSwiftPackageDependencies.swift */,
 			);
 			path = "Project16-HotProspects";
 			sourceTree = "<group>";
@@ -613,6 +624,9 @@
 			dependencies = (
 			);
 			name = H100DaysOfSwiftUI;
+			packageProductDependencies = (
+				FDEA37432621ACF700E4FAF0 /* SamplePackage */,
+			);
 			productName = H100DaysOfSwiftUI;
 			productReference = FD07FEF525BD954700A02404 /* H100DaysOfSwiftUI.app */;
 			productType = "com.apple.product-type.application";
@@ -684,6 +698,9 @@
 				Base,
 			);
 			mainGroup = FD07FEEC25BD954700A02404;
+			packageReferences = (
+				FDEA37422621ACF700E4FAF0 /* XCRemoteSwiftPackageReference "SamplePackage" */,
+			);
 			productRefGroup = FD07FEF625BD954700A02404 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -737,6 +754,7 @@
 				FD07FEF925BD954700A02404 /* H100DaysOfSwiftUIApp.swift in Sources */,
 				FDAE8A6425E2B00D002089A2 /* DetailView.swift in Sources */,
 				FD33354F25D035E800385254 /* CupCakes.swift in Sources */,
+				FDEA37392621A27A00E4FAF0 /* SchedulingLocalNotifications.swift in Sources */,
 				FD5318AE26172FA000F6ABCF /* UsingTouchIDAndFaceID.swift in Sources */,
 				FD17B05A25D59145007213B1 /* Persistent.swift in Sources */,
 				FD33354025D0053C00385254 /* URLSessionSendingRecievingCodableData.swift in Sources */,
@@ -757,6 +775,7 @@
 				FDA6D48B25C99B9000B3DB9D /* NavigationLinks.swift in Sources */,
 				FD33354525D00F5400385254 /* ValidatingDisablingForm.swift in Sources */,
 				FD888147260654E90019CE17 /* Country+CoreDataClass.swift in Sources */,
+				FDEA373E2621ABA300E4FAF0 /* AddingSwiftPackageDependencies.swift in Sources */,
 				FD11F7BD25CC4680008A1D26 /* MissionView.swift in Sources */,
 				FD77BCC625C590AA006C2869 /* ControllingAnimationStack.swift in Sources */,
 				FDEAE596260F0F7A0042B72B /* PropertyWrappersBecomesStruct.swift in Sources */,
@@ -821,6 +840,7 @@
 				FD88811C26064C9B0019CE17 /* DynamicFiltering.swift in Sources */,
 				FDA6D4A625C9A78E00B3DB9D /* Astronaut.swift in Sources */,
 				FDA0F6EB25EE8E8D0088FABA /* Movie+CoreDataClass.swift in Sources */,
+				FDEA373426219F1900E4FAF0 /* ContextMenus.swift in Sources */,
 				FD77BCBC25C58BC9006C2869 /* AnimatingBinding.swift in Sources */,
 				FD11CCDF25D1852400A035FD /* CheckoutView.swift in Sources */,
 				FDEAE5AA260F3DB20042B72B /* WrappingUIViewControllerInSwiftUIView.swift in Sources */,
@@ -1160,6 +1180,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FDEA37422621ACF700E4FAF0 /* XCRemoteSwiftPackageReference "SamplePackage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/twostraws/SamplePackage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FDEA37432621ACF700E4FAF0 /* SamplePackage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FDEA37422621ACF700E4FAF0 /* XCRemoteSwiftPackageReference "SamplePackage" */;
+			productName = SamplePackage;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		FD88813026064F220019CE17 /* MyModel.xcdatamodeld */ = {
