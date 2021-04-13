@@ -127,6 +127,9 @@
 		FDE7624A2625A26100518704 /* NotifiedWhenAppMovesToBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE762492625A26100518704 /* NotifiedWhenAppMovesToBackground.swift */; };
 		FDE7624F2625A51800518704 /* SupportingSpecificAccessibilityNeeds.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE7624E2625A51800518704 /* SupportingSpecificAccessibilityNeeds.swift */; };
 		FDE7625A2625EC5A00518704 /* Flashzilla.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE762592625EC5A00518704 /* Flashzilla.swift */; };
+		FDE762622625ECFC00518704 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE762612625ECFC00518704 /* Card.swift */; };
+		FDE762672625EE5800518704 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE762662625EE5800518704 /* CardView.swift */; };
+		FDE762782626198B00518704 /* EditCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE762772626198B00518704 /* EditCards.swift */; };
 		FDEA372A262197DA00E4FAF0 /* ManuallyPublishingObservableObjectChanges.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEA3729262197DA00E4FAF0 /* ManuallyPublishingObservableObjectChanges.swift */; };
 		FDEA372F26219B5100E4FAF0 /* ControllingImageInterpolation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEA372E26219B5100E4FAF0 /* ControllingImageInterpolation.swift */; };
 		FDEA373426219F1900E4FAF0 /* ContextMenus.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEA373326219F1800E4FAF0 /* ContextMenus.swift */; };
@@ -287,6 +290,9 @@
 		FDE762492625A26100518704 /* NotifiedWhenAppMovesToBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotifiedWhenAppMovesToBackground.swift; sourceTree = "<group>"; };
 		FDE7624E2625A51800518704 /* SupportingSpecificAccessibilityNeeds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportingSpecificAccessibilityNeeds.swift; sourceTree = "<group>"; };
 		FDE762592625EC5A00518704 /* Flashzilla.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flashzilla.swift; sourceTree = "<group>"; };
+		FDE762612625ECFC00518704 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		FDE762662625EE5800518704 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		FDE762772626198B00518704 /* EditCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditCards.swift; sourceTree = "<group>"; };
 		FDEA3729262197DA00E4FAF0 /* ManuallyPublishingObservableObjectChanges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManuallyPublishingObservableObjectChanges.swift; sourceTree = "<group>"; };
 		FDEA372E26219B5100E4FAF0 /* ControllingImageInterpolation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllingImageInterpolation.swift; sourceTree = "<group>"; };
 		FDEA373326219F1800E4FAF0 /* ContextMenus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenus.swift; sourceTree = "<group>"; };
@@ -626,6 +632,9 @@
 			isa = PBXGroup;
 			children = (
 				FDE762592625EC5A00518704 /* Flashzilla.swift */,
+				FDE762772626198B00518704 /* EditCards.swift */,
+				FDE762612625ECFC00518704 /* Card.swift */,
+				FDE762662625EE5800518704 /* CardView.swift */,
 				FDE762352625842400518704 /* Gestures.swift */,
 				FDE7623A2625956C00518704 /* VibrationsWithUINotificationFeedbackGeneratorAndCoreHaptics.swift */,
 				FDE7623F26259AE600518704 /* DisablingUserInteractivityWithallowsHitTesting.swift */,
@@ -872,10 +881,12 @@
 				FD07FF2825BD96DC00A02404 /* Day16.swift in Sources */,
 				FD77BCCB25C59770006C2869 /* AnimatingGesture.swift in Sources */,
 				FD8884AC25CEE5F2003AD159 /* MetalRendering.swift in Sources */,
+				FDE762782626198B00518704 /* EditCards.swift in Sources */,
 				FD1C192F25C8543400C91734 /* ScrollViewWithScrollingData.swift in Sources */,
 				FDBD12182617058B0013B9FD /* SwitchingViewStatesWithEnums.swift in Sources */,
 				FDA6D4A125C9A4D000B3DB9D /* Bundle-Decodable.swift in Sources */,
 				FD88849E25CEBE12003AD159 /* CGAffineTransforms.swift in Sources */,
+				FDE762622625ECFC00518704 /* Card.swift in Sources */,
 				FDBD120E2616F5180013B9FD /* 1AddingConformanceToComparableForCustomTypes.swift in Sources */,
 				FD77BCD025C59CE6006C2869 /* ShowHideViewAnim.swift in Sources */,
 				FDAC84AC25C6F5150015D268 /* CodableSwiftObjects.swift in Sources */,
@@ -916,6 +927,7 @@
 				FDEA372A262197DA00E4FAF0 /* ManuallyPublishingObservableObjectChanges.swift in Sources */,
 				FD8884B625CEEABF003AD159 /* AnimatableData.swift in Sources */,
 				FD8884C025CEEE4D003AD159 /* SpirographDig.swift in Sources */,
+				FDE762672625EE5800518704 /* CardView.swift in Sources */,
 				FDE7624A2625A26100518704 /* NotifiedWhenAppMovesToBackground.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

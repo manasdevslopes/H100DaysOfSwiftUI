@@ -20,6 +20,12 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSCameraUsageDescription</key>
+	<string>We need to scan QR codes</string>
+	<key>NSFaceIDUsageDescription</key>
+	<string>Please authenticate yourself to unlock your places.</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>We want to save the filtered photos</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
@@ -35,7 +41,6 @@
 	</array>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
-		<string>UIInterfaceOrientationPortrait</string>
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
@@ -46,11 +51,5 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
-	<key>NSPhotoLibraryAddUsageDescription</key>
-	<string>We want to save the filtered photos</string>
-	<key>NSFaceIDUsageDescription</key>
-	<string>Please authenticate yourself to unlock your places.</string>
-	<key>NSCameraUsageDescription</key>
-	<string>We need to scan QR codes</string>
 </dict>
 </plist>
