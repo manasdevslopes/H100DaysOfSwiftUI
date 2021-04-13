@@ -120,6 +120,13 @@
 		FDBD12132616FAEB0013B9FD /* WritingDataToTheDocumentsDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBD12122616FAEB0013B9FD /* WritingDataToTheDocumentsDirectory.swift */; };
 		FDBD12182617058B0013B9FD /* SwitchingViewStatesWithEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBD12172617058B0013B9FD /* SwitchingViewStatesWithEnums.swift */; };
 		FDDE5D342620C24700AA99FF /* ResultType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDE5D332620C24700AA99FF /* ResultType.swift */; };
+		FDE762362625842400518704 /* Gestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE762352625842400518704 /* Gestures.swift */; };
+		FDE7623B2625956C00518704 /* VibrationsWithUINotificationFeedbackGeneratorAndCoreHaptics.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE7623A2625956C00518704 /* VibrationsWithUINotificationFeedbackGeneratorAndCoreHaptics.swift */; };
+		FDE7624026259AE600518704 /* DisablingUserInteractivityWithallowsHitTesting.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE7623F26259AE600518704 /* DisablingUserInteractivityWithallowsHitTesting.swift */; };
+		FDE7624526259F0500518704 /* TriggerEventsWithTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE7624426259F0500518704 /* TriggerEventsWithTimer.swift */; };
+		FDE7624A2625A26100518704 /* NotifiedWhenAppMovesToBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE762492625A26100518704 /* NotifiedWhenAppMovesToBackground.swift */; };
+		FDE7624F2625A51800518704 /* SupportingSpecificAccessibilityNeeds.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE7624E2625A51800518704 /* SupportingSpecificAccessibilityNeeds.swift */; };
+		FDE7625A2625EC5A00518704 /* Flashzilla.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE762592625EC5A00518704 /* Flashzilla.swift */; };
 		FDEA372A262197DA00E4FAF0 /* ManuallyPublishingObservableObjectChanges.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEA3729262197DA00E4FAF0 /* ManuallyPublishingObservableObjectChanges.swift */; };
 		FDEA372F26219B5100E4FAF0 /* ControllingImageInterpolation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEA372E26219B5100E4FAF0 /* ControllingImageInterpolation.swift */; };
 		FDEA373426219F1900E4FAF0 /* ContextMenus.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEA373326219F1800E4FAF0 /* ContextMenus.swift */; };
@@ -273,6 +280,13 @@
 		FDBD12122616FAEB0013B9FD /* WritingDataToTheDocumentsDirectory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WritingDataToTheDocumentsDirectory.swift; sourceTree = "<group>"; };
 		FDBD12172617058B0013B9FD /* SwitchingViewStatesWithEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchingViewStatesWithEnums.swift; sourceTree = "<group>"; };
 		FDDE5D332620C24700AA99FF /* ResultType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultType.swift; sourceTree = "<group>"; };
+		FDE762352625842400518704 /* Gestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gestures.swift; sourceTree = "<group>"; };
+		FDE7623A2625956C00518704 /* VibrationsWithUINotificationFeedbackGeneratorAndCoreHaptics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VibrationsWithUINotificationFeedbackGeneratorAndCoreHaptics.swift; sourceTree = "<group>"; };
+		FDE7623F26259AE600518704 /* DisablingUserInteractivityWithallowsHitTesting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisablingUserInteractivityWithallowsHitTesting.swift; sourceTree = "<group>"; };
+		FDE7624426259F0500518704 /* TriggerEventsWithTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriggerEventsWithTimer.swift; sourceTree = "<group>"; };
+		FDE762492625A26100518704 /* NotifiedWhenAppMovesToBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotifiedWhenAppMovesToBackground.swift; sourceTree = "<group>"; };
+		FDE7624E2625A51800518704 /* SupportingSpecificAccessibilityNeeds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportingSpecificAccessibilityNeeds.swift; sourceTree = "<group>"; };
+		FDE762592625EC5A00518704 /* Flashzilla.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flashzilla.swift; sourceTree = "<group>"; };
 		FDEA3729262197DA00E4FAF0 /* ManuallyPublishingObservableObjectChanges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManuallyPublishingObservableObjectChanges.swift; sourceTree = "<group>"; };
 		FDEA372E26219B5100E4FAF0 /* ControllingImageInterpolation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllingImageInterpolation.swift; sourceTree = "<group>"; };
 		FDEA373326219F1800E4FAF0 /* ContextMenus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenus.swift; sourceTree = "<group>"; };
@@ -339,6 +353,7 @@
 		FD07FEF725BD954700A02404 /* H100DaysOfSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				FDE76234262583DC00518704 /* Project17-Flashzilla */,
 				FD65890E261CB80800ED6283 /* Project16-HotProspects */,
 				FD5B20F226188567006BBA8E /* Project15-Accessibility */,
 				FDBD120C2616F3E20013B9FD /* Project14 */,
@@ -607,6 +622,20 @@
 			path = Project14;
 			sourceTree = "<group>";
 		};
+		FDE76234262583DC00518704 /* Project17-Flashzilla */ = {
+			isa = PBXGroup;
+			children = (
+				FDE762592625EC5A00518704 /* Flashzilla.swift */,
+				FDE762352625842400518704 /* Gestures.swift */,
+				FDE7623A2625956C00518704 /* VibrationsWithUINotificationFeedbackGeneratorAndCoreHaptics.swift */,
+				FDE7623F26259AE600518704 /* DisablingUserInteractivityWithallowsHitTesting.swift */,
+				FDE7624426259F0500518704 /* TriggerEventsWithTimer.swift */,
+				FDE762492625A26100518704 /* NotifiedWhenAppMovesToBackground.swift */,
+				FDE7624E2625A51800518704 /* SupportingSpecificAccessibilityNeeds.swift */,
+			);
+			path = "Project17-Flashzilla";
+			sourceTree = "<group>";
+		};
 		FDEAE591260F0D710042B72B /* Project13 */ = {
 			isa = PBXGroup;
 			children = (
@@ -767,6 +796,7 @@
 				FD07FF3725BD9E1B00A02404 /* Day16 Picker.swift in Sources */,
 				FD07FEFB25BD954700A02404 /* ContentView.swift in Sources */,
 				FD8F52F525C041C30011A0F9 /* CustomContainers.swift in Sources */,
+				FDE7624026259AE600518704 /* DisablingUserInteractivityWithallowsHitTesting.swift in Sources */,
 				FD3F0FCF25BDC6EB00B92B69 /* TempCalc.swift in Sources */,
 				FD07FEF925BD954700A02404 /* H100DaysOfSwiftUIApp.swift in Sources */,
 				FDAE8A6425E2B00D002089A2 /* DetailView.swift in Sources */,
@@ -789,6 +819,7 @@
 				FDA0F6EC25EE8E8D0088FABA /* Movie+CoreDataProperties.swift in Sources */,
 				FDAC84B625C7012B0015D268 /* AddView.swift in Sources */,
 				FD5B20F426188616006BBA8E /* IdentifyingViewsWithUsefulLabels.swift in Sources */,
+				FDE762362625842400518704 /* Gestures.swift in Sources */,
 				FDA6D48B25C99B9000B3DB9D /* NavigationLinks.swift in Sources */,
 				FD33354525D00F5400385254 /* ValidatingDisablingForm.swift in Sources */,
 				FD888147260654E90019CE17 /* Country+CoreDataClass.swift in Sources */,
@@ -831,7 +862,10 @@
 				FD52A2DA2621F4DB001E8975 /* HotProspects.swift in Sources */,
 				FD53189B26170E9600F6ABCF /* MapViews.swift in Sources */,
 				FDA6D49525C9A2FE00B3DB9D /* Moonshot.swift in Sources */,
+				FDE7625A2625EC5A00518704 /* Flashzilla.swift in Sources */,
 				FD88813D26064FB60019CE17 /* FilteredList.swift in Sources */,
+				FDE7623B2625956C00518704 /* VibrationsWithUINotificationFeedbackGeneratorAndCoreHaptics.swift in Sources */,
+				FDE7624526259F0500518704 /* TriggerEventsWithTimer.swift in Sources */,
 				FDAC84A225C6E7230015D268 /* OnDelete.swift in Sources */,
 				FDEAE5AF260F3F530042B72B /* ImagePicker.swift in Sources */,
 				FD53A1D125D9440D00D807D6 /* AddBookView.swift in Sources */,
@@ -859,6 +893,7 @@
 				FD88811C26064C9B0019CE17 /* DynamicFiltering.swift in Sources */,
 				FDA6D4A625C9A78E00B3DB9D /* Astronaut.swift in Sources */,
 				FDA0F6EB25EE8E8D0088FABA /* Movie+CoreDataClass.swift in Sources */,
+				FDE7624F2625A51800518704 /* SupportingSpecificAccessibilityNeeds.swift in Sources */,
 				FDEA373426219F1900E4FAF0 /* ContextMenus.swift in Sources */,
 				FD77BCBC25C58BC9006C2869 /* AnimatingBinding.swift in Sources */,
 				FD11CCDF25D1852400A035FD /* CheckoutView.swift in Sources */,
@@ -881,6 +916,7 @@
 				FDEA372A262197DA00E4FAF0 /* ManuallyPublishingObservableObjectChanges.swift in Sources */,
 				FD8884B625CEEABF003AD159 /* AnimatableData.swift in Sources */,
 				FD8884C025CEEE4D003AD159 /* SpirographDig.swift in Sources */,
+				FDE7624A2625A26100518704 /* NotifiedWhenAppMovesToBackground.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

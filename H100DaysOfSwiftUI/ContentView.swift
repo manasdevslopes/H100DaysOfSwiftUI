@@ -15,7 +15,7 @@ struct ContentView: View {
         //            .environment(\.managedObjectContext, context)
         //        EnsuringCoreDataObjectsAreUniqueUsingConstraints()
         //            .environment(\.managedObjectContext, context)
-        HotProspects()
+        Flashzilla()
     }
 }
 
