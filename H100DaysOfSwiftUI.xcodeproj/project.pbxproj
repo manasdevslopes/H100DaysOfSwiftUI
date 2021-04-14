@@ -116,6 +116,12 @@
 		FDAC84B125C6F8BB0015D268 /* iExpense.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAC84B025C6F8BB0015D268 /* iExpense.swift */; };
 		FDAC84B625C7012B0015D268 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAC84B525C7012B0015D268 /* AddView.swift */; };
 		FDAE8A6425E2B00D002089A2 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAE8A6325E2B00D002089A2 /* DetailView.swift */; };
+		FDB78B1926273B4B006B49EE /* Layouts.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB78B1826273B4B006B49EE /* Layouts.swift */; };
+		FDB78B1E26273D06006B49EE /* AlignmentGuides.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB78B1D26273D06006B49EE /* AlignmentGuides.swift */; };
+		FDB78B2326273EE9006B49EE /* CustomAlignmentGuides.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB78B2226273EE9006B49EE /* CustomAlignmentGuides.swift */; };
+		FDB78B2E262743D5006B49EE /* AbsolutePositioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB78B2D262743D5006B49EE /* AbsolutePositioning.swift */; };
+		FDB78B392627466C006B49EE /* FramesAndCoordinatesInsideGeometryReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB78B382627466C006B49EE /* FramesAndCoordinatesInsideGeometryReader.swift */; };
+		FDB78B44262749E7006B49EE /* ScrollViewEffectsUsingGeometryReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB78B43262749E7006B49EE /* ScrollViewEffectsUsingGeometryReader.swift */; };
 		FDBD120E2616F5180013B9FD /* 1AddingConformanceToComparableForCustomTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBD120D2616F5180013B9FD /* 1AddingConformanceToComparableForCustomTypes.swift */; };
 		FDBD12132616FAEB0013B9FD /* WritingDataToTheDocumentsDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBD12122616FAEB0013B9FD /* WritingDataToTheDocumentsDirectory.swift */; };
 		FDBD12182617058B0013B9FD /* SwitchingViewStatesWithEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBD12172617058B0013B9FD /* SwitchingViewStatesWithEnums.swift */; };
@@ -279,6 +285,12 @@
 		FDAC84B025C6F8BB0015D268 /* iExpense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iExpense.swift; sourceTree = "<group>"; };
 		FDAC84B525C7012B0015D268 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 		FDAE8A6325E2B00D002089A2 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		FDB78B1826273B4B006B49EE /* Layouts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Layouts.swift; sourceTree = "<group>"; };
+		FDB78B1D26273D06006B49EE /* AlignmentGuides.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlignmentGuides.swift; sourceTree = "<group>"; };
+		FDB78B2226273EE9006B49EE /* CustomAlignmentGuides.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlignmentGuides.swift; sourceTree = "<group>"; };
+		FDB78B2D262743D5006B49EE /* AbsolutePositioning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbsolutePositioning.swift; sourceTree = "<group>"; };
+		FDB78B382627466C006B49EE /* FramesAndCoordinatesInsideGeometryReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FramesAndCoordinatesInsideGeometryReader.swift; sourceTree = "<group>"; };
+		FDB78B43262749E7006B49EE /* ScrollViewEffectsUsingGeometryReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewEffectsUsingGeometryReader.swift; sourceTree = "<group>"; };
 		FDBD120D2616F5180013B9FD /* 1AddingConformanceToComparableForCustomTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1AddingConformanceToComparableForCustomTypes.swift; sourceTree = "<group>"; };
 		FDBD12122616FAEB0013B9FD /* WritingDataToTheDocumentsDirectory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WritingDataToTheDocumentsDirectory.swift; sourceTree = "<group>"; };
 		FDBD12172617058B0013B9FD /* SwitchingViewStatesWithEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchingViewStatesWithEnums.swift; sourceTree = "<group>"; };
@@ -359,6 +371,7 @@
 		FD07FEF725BD954700A02404 /* H100DaysOfSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				FDB78B1726273AA0006B49EE /* Project18 */,
 				FDE76234262583DC00518704 /* Project17-Flashzilla */,
 				FD65890E261CB80800ED6283 /* Project16-HotProspects */,
 				FD5B20F226188567006BBA8E /* Project15-Accessibility */,
@@ -610,6 +623,19 @@
 			path = Project7;
 			sourceTree = "<group>";
 		};
+		FDB78B1726273AA0006B49EE /* Project18 */ = {
+			isa = PBXGroup;
+			children = (
+				FDB78B1826273B4B006B49EE /* Layouts.swift */,
+				FDB78B1D26273D06006B49EE /* AlignmentGuides.swift */,
+				FDB78B2226273EE9006B49EE /* CustomAlignmentGuides.swift */,
+				FDB78B2D262743D5006B49EE /* AbsolutePositioning.swift */,
+				FDB78B382627466C006B49EE /* FramesAndCoordinatesInsideGeometryReader.swift */,
+				FDB78B43262749E7006B49EE /* ScrollViewEffectsUsingGeometryReader.swift */,
+			);
+			path = Project18;
+			sourceTree = "<group>";
+		};
 		FDBD120C2616F3E20013B9FD /* Project14 */ = {
 			isa = PBXGroup;
 			children = (
@@ -818,6 +844,7 @@
 				FD5B503325D4298300D0F0EE /* CustomComponentWithBinding.swift in Sources */,
 				FDA0F70225EE990E0088FABA /* FilteringFetchRequestUsingNSPredicate.swift in Sources */,
 				FD11F7C225CC5EF7008A1D26 /* AstronautView.swift in Sources */,
+				FDB78B44262749E7006B49EE /* ScrollViewEffectsUsingGeometryReader.swift in Sources */,
 				FDAC849825C6DAF40015D268 /* StateWithObservedObject.swift in Sources */,
 				FD88813226064F220019CE17 /* MyModel.xcdatamodeld in Sources */,
 				FDA6D49025C99D7B00B3DB9D /* HierarchicalCodableData.swift in Sources */,
@@ -867,16 +894,19 @@
 				FD33354A25D0346300385254 /* Order.swift in Sources */,
 				FD07FF2D25BD97E900A02404 /* Day 16 NavigationView.swift in Sources */,
 				FD8429B425C45CB000D9B0DF /* Lists.swift in Sources */,
+				FDB78B2E262743D5006B49EE /* AbsolutePositioning.swift in Sources */,
 				FD5236FE25BF13BF00CEAA3B /* GuessTheFlag.swift in Sources */,
 				FD52A2DA2621F4DB001E8975 /* HotProspects.swift in Sources */,
 				FD53189B26170E9600F6ABCF /* MapViews.swift in Sources */,
 				FDA6D49525C9A2FE00B3DB9D /* Moonshot.swift in Sources */,
 				FDE7625A2625EC5A00518704 /* Flashzilla.swift in Sources */,
 				FD88813D26064FB60019CE17 /* FilteredList.swift in Sources */,
+				FDB78B2326273EE9006B49EE /* CustomAlignmentGuides.swift in Sources */,
 				FDE7623B2625956C00518704 /* VibrationsWithUINotificationFeedbackGeneratorAndCoreHaptics.swift in Sources */,
 				FDE7624526259F0500518704 /* TriggerEventsWithTimer.swift in Sources */,
 				FDAC84A225C6E7230015D268 /* OnDelete.swift in Sources */,
 				FDEAE5AF260F3F530042B72B /* ImagePicker.swift in Sources */,
+				FDB78B1926273B4B006B49EE /* Layouts.swift in Sources */,
 				FD53A1D125D9440D00D807D6 /* AddBookView.swift in Sources */,
 				FD07FF2825BD96DC00A02404 /* Day16.swift in Sources */,
 				FD77BCCB25C59770006C2869 /* AnimatingGesture.swift in Sources */,
@@ -899,6 +929,7 @@
 				FDAC849D25C6DCE90015D268 /* ShowHideViews.swift in Sources */,
 				FD07FF3C25BDA20800A02404 /* project.swift in Sources */,
 				FD17B04C25D590A9007213B1 /* CombineCoreDataWithSwiftUI.swift in Sources */,
+				FDB78B392627466C006B49EE /* FramesAndCoordinatesInsideGeometryReader.swift in Sources */,
 				FD5318C82617654E00F6ABCF /* Results.swift in Sources */,
 				FDAC84A725C6EAF30015D268 /* UserDefaultStoreData.swift in Sources */,
 				FD88811C26064C9B0019CE17 /* DynamicFiltering.swift in Sources */,
@@ -920,6 +951,7 @@
 				FD5B503825D42D1600D0F0EE /* SizeClassesWithAnyViewTypeErasure.swift in Sources */,
 				FDA0F6F125EE91230088FABA /* ConditionalsavingofNSManagedObjectContext.swift in Sources */,
 				FD77BCC125C58E73006C2869 /* ExplicitAnimation.swift in Sources */,
+				FDB78B1E26273D06006B49EE /* AlignmentGuides.swift in Sources */,
 				FD5318C32617581F00F6ABCF /* EditView.swift in Sources */,
 				FD8F52F025C03EE60011A0F9 /* CustomModifier.swift in Sources */,
 				FD53A1C625D9426F00D807D6 /* BookWorm.swift in Sources */,
