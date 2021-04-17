@@ -125,6 +125,9 @@
 		FDBD120E2616F5180013B9FD /* 1AddingConformanceToComparableForCustomTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBD120D2616F5180013B9FD /* 1AddingConformanceToComparableForCustomTypes.swift */; };
 		FDBD12132616FAEB0013B9FD /* WritingDataToTheDocumentsDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBD12122616FAEB0013B9FD /* WritingDataToTheDocumentsDirectory.swift */; };
 		FDBD12182617058B0013B9FD /* SwitchingViewStatesWithEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBD12172617058B0013B9FD /* SwitchingViewStatesWithEnums.swift */; };
+		FDBD647B2629DBD80053801E /* TwoSideBySideViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBD647A2629DBD80053801E /* TwoSideBySideViews.swift */; };
+		FDBD64862629FB440053801E /* UsingAlertAndSheetWithOptionals.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBD64852629FB440053801E /* UsingAlertAndSheetWithOptionals.swift */; };
+		FDBD648B2629FE520053801E /* UsingGroupsAsTransparentLayoutContainers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBD648A2629FE520053801E /* UsingGroupsAsTransparentLayoutContainers.swift */; };
 		FDDE5D342620C24700AA99FF /* ResultType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDE5D332620C24700AA99FF /* ResultType.swift */; };
 		FDE762362625842400518704 /* Gestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE762352625842400518704 /* Gestures.swift */; };
 		FDE7623B2625956C00518704 /* VibrationsWithUINotificationFeedbackGeneratorAndCoreHaptics.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE7623A2625956C00518704 /* VibrationsWithUINotificationFeedbackGeneratorAndCoreHaptics.swift */; };
@@ -150,6 +153,15 @@
 		FDEAE5AF260F3F530042B72B /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEAE5AE260F3F530042B72B /* ImagePicker.swift */; };
 		FDEAE5D72610A4110042B72B /* InstaFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEAE5D62610A4110042B72B /* InstaFilter.swift */; };
 		FDEAE5E72610CEB00042B72B /* ImageSaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEAE5E62610CEB00042B72B /* ImageSaver.swift */; };
+		FDEE6381262AB695006A5B5B /* resorts.json in Resources */ = {isa = PBXBuildFile; fileRef = FDEE6380262AB695006A5B5B /* resorts.json */; };
+		FDEE6386262AB763006A5B5B /* SnowSeeker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEE6385262AB763006A5B5B /* SnowSeeker.swift */; };
+		FDEE6393262ABB58006A5B5B /* Resort.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEE6392262ABB58006A5B5B /* Resort.swift */; };
+		FDEE6398262AC3C3006A5B5B /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEE6397262AC3C3006A5B5B /* WelcomeView.swift */; };
+		FDEE639D262AC822006A5B5B /* ResortView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEE639C262AC822006A5B5B /* ResortView.swift */; };
+		FDEE63A2262ACB0D006A5B5B /* SkiDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEE63A1262ACB0D006A5B5B /* SkiDetailsView.swift */; };
+		FDEE63A7262ACB9D006A5B5B /* ResortDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEE63A6262ACB9D006A5B5B /* ResortDetailsView.swift */; };
+		FDEE63AC262AD78B006A5B5B /* Facility.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEE63AB262AD78B006A5B5B /* Facility.swift */; };
+		FDEE63B1262AE4E9006A5B5B /* Favorites.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEE63B0262AE4E9006A5B5B /* Favorites.swift */; };
 		FDF7D06626177EC100AB00DD /* MKPointAnnotation-Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF7D06526177EC100AB00DD /* MKPointAnnotation-Codable.swift */; };
 /* End PBXBuildFile section */
 
@@ -294,6 +306,9 @@
 		FDBD120D2616F5180013B9FD /* 1AddingConformanceToComparableForCustomTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1AddingConformanceToComparableForCustomTypes.swift; sourceTree = "<group>"; };
 		FDBD12122616FAEB0013B9FD /* WritingDataToTheDocumentsDirectory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WritingDataToTheDocumentsDirectory.swift; sourceTree = "<group>"; };
 		FDBD12172617058B0013B9FD /* SwitchingViewStatesWithEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchingViewStatesWithEnums.swift; sourceTree = "<group>"; };
+		FDBD647A2629DBD80053801E /* TwoSideBySideViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSideBySideViews.swift; sourceTree = "<group>"; };
+		FDBD64852629FB440053801E /* UsingAlertAndSheetWithOptionals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsingAlertAndSheetWithOptionals.swift; sourceTree = SOURCE_ROOT; };
+		FDBD648A2629FE520053801E /* UsingGroupsAsTransparentLayoutContainers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsingGroupsAsTransparentLayoutContainers.swift; sourceTree = "<group>"; };
 		FDDE5D332620C24700AA99FF /* ResultType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultType.swift; sourceTree = "<group>"; };
 		FDE762352625842400518704 /* Gestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gestures.swift; sourceTree = "<group>"; };
 		FDE7623A2625956C00518704 /* VibrationsWithUINotificationFeedbackGeneratorAndCoreHaptics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VibrationsWithUINotificationFeedbackGeneratorAndCoreHaptics.swift; sourceTree = "<group>"; };
@@ -318,6 +333,15 @@
 		FDEAE5AE260F3F530042B72B /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		FDEAE5D62610A4110042B72B /* InstaFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaFilter.swift; sourceTree = "<group>"; };
 		FDEAE5E62610CEB00042B72B /* ImageSaver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSaver.swift; sourceTree = "<group>"; };
+		FDEE6380262AB695006A5B5B /* resorts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = resorts.json; sourceTree = "<group>"; };
+		FDEE6385262AB763006A5B5B /* SnowSeeker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnowSeeker.swift; sourceTree = "<group>"; };
+		FDEE6392262ABB58006A5B5B /* Resort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resort.swift; sourceTree = "<group>"; };
+		FDEE6397262AC3C3006A5B5B /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		FDEE639C262AC822006A5B5B /* ResortView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResortView.swift; sourceTree = "<group>"; };
+		FDEE63A1262ACB0D006A5B5B /* SkiDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkiDetailsView.swift; sourceTree = "<group>"; };
+		FDEE63A6262ACB9D006A5B5B /* ResortDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResortDetailsView.swift; sourceTree = "<group>"; };
+		FDEE63AB262AD78B006A5B5B /* Facility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Facility.swift; sourceTree = "<group>"; };
+		FDEE63B0262AE4E9006A5B5B /* Favorites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorites.swift; sourceTree = "<group>"; };
 		FDF7D06526177EC100AB00DD /* MKPointAnnotation-Codable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MKPointAnnotation-Codable.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -371,6 +395,7 @@
 		FD07FEF725BD954700A02404 /* H100DaysOfSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				FDBD64792629DBAE0053801E /* Project19-SnowSeeker */,
 				FDB78B1726273AA0006B49EE /* Project18 */,
 				FDE76234262583DC00518704 /* Project17-Flashzilla */,
 				FD65890E261CB80800ED6283 /* Project16-HotProspects */,
@@ -398,6 +423,7 @@
 				FD88813026064F220019CE17 /* MyModel.xcdatamodeld */,
 				FDA6D49A25C9A37500B3DB9D /* astronauts.json */,
 				FDA6D49925C9A37400B3DB9D /* missions.json */,
+				FDEE6380262AB695006A5B5B /* resorts.json */,
 				FD07FEFE25BD954E00A02404 /* Preview Content */,
 				FD17B05925D59145007213B1 /* Persistent.swift */,
 			);
@@ -654,6 +680,24 @@
 			path = Project14;
 			sourceTree = "<group>";
 		};
+		FDBD64792629DBAE0053801E /* Project19-SnowSeeker */ = {
+			isa = PBXGroup;
+			children = (
+				FDBD64852629FB440053801E /* UsingAlertAndSheetWithOptionals.swift */,
+				FDBD648A2629FE520053801E /* UsingGroupsAsTransparentLayoutContainers.swift */,
+				FDEE6385262AB763006A5B5B /* SnowSeeker.swift */,
+				FDEE63A1262ACB0D006A5B5B /* SkiDetailsView.swift */,
+				FDEE63AB262AD78B006A5B5B /* Facility.swift */,
+				FDEE63A6262ACB9D006A5B5B /* ResortDetailsView.swift */,
+				FDEE639C262AC822006A5B5B /* ResortView.swift */,
+				FDEE63B0262AE4E9006A5B5B /* Favorites.swift */,
+				FDEE6397262AC3C3006A5B5B /* WelcomeView.swift */,
+				FDEE6392262ABB58006A5B5B /* Resort.swift */,
+				FDBD647A2629DBD80053801E /* TwoSideBySideViews.swift */,
+			);
+			path = "Project19-SnowSeeker";
+			sourceTree = "<group>";
+		};
 		FDE76234262583DC00518704 /* Project17-Flashzilla */ = {
 			isa = PBXGroup;
 			children = (
@@ -797,6 +841,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDEE6381262AB695006A5B5B /* resorts.json in Resources */,
 				FD07FF0025BD954E00A02404 /* Preview Assets.xcassets in Resources */,
 				FD8429CB25C46F1800D9B0DF /* start.txt in Resources */,
 				FDA6D49B25C9A37500B3DB9D /* missions.json in Resources */,
@@ -835,6 +880,7 @@
 				FD3F0FCF25BDC6EB00B92B69 /* TempCalc.swift in Sources */,
 				FD07FEF925BD954700A02404 /* H100DaysOfSwiftUIApp.swift in Sources */,
 				FDAE8A6425E2B00D002089A2 /* DetailView.swift in Sources */,
+				FDBD64862629FB440053801E /* UsingAlertAndSheetWithOptionals.swift in Sources */,
 				FD33354F25D035E800385254 /* CupCakes.swift in Sources */,
 				FDEA37392621A27A00E4FAF0 /* SchedulingLocalNotifications.swift in Sources */,
 				FD5318AE26172FA000F6ABCF /* UsingTouchIDAndFaceID.swift in Sources */,
@@ -844,6 +890,7 @@
 				FD5B503325D4298300D0F0EE /* CustomComponentWithBinding.swift in Sources */,
 				FDA0F70225EE990E0088FABA /* FilteringFetchRequestUsingNSPredicate.swift in Sources */,
 				FD11F7C225CC5EF7008A1D26 /* AstronautView.swift in Sources */,
+				FDEE639D262AC822006A5B5B /* ResortView.swift in Sources */,
 				FDB78B44262749E7006B49EE /* ScrollViewEffectsUsingGeometryReader.swift in Sources */,
 				FDAC849825C6DAF40015D268 /* StateWithObservedObject.swift in Sources */,
 				FD88813226064F220019CE17 /* MyModel.xcdatamodeld in Sources */,
@@ -855,6 +902,7 @@
 				FDA0F6EC25EE8E8D0088FABA /* Movie+CoreDataProperties.swift in Sources */,
 				FDAC84B625C7012B0015D268 /* AddView.swift in Sources */,
 				FD5B20F426188616006BBA8E /* IdentifyingViewsWithUsefulLabels.swift in Sources */,
+				FDEE6393262ABB58006A5B5B /* Resort.swift in Sources */,
 				FDE762362625842400518704 /* Gestures.swift in Sources */,
 				FDA6D48B25C99B9000B3DB9D /* NavigationLinks.swift in Sources */,
 				FD33354525D00F5400385254 /* ValidatingDisablingForm.swift in Sources */,
@@ -870,6 +918,7 @@
 				FD33353525CFFDFF00385254 /* CodableConformancePublishedProperties.swift in Sources */,
 				FD77BCD525C59FBB006C2869 /* CustomTransitionWIthViewModifier.swift in Sources */,
 				FDF7D06626177EC100AB00DD /* MKPointAnnotation-Codable.swift in Sources */,
+				FDEE6398262AC3C3006A5B5B /* WelcomeView.swift in Sources */,
 				FD88812326064D3F0019CE17 /* Singer+CoreDataProperties.swift in Sources */,
 				FDAC84B125C6F8BB0015D268 /* iExpense.swift in Sources */,
 				FD658910261CB9D100ED6283 /* ReadingCustomValuesFromEnvironmentWithEnvironmentObject.swift in Sources */,
@@ -899,6 +948,7 @@
 				FD52A2DA2621F4DB001E8975 /* HotProspects.swift in Sources */,
 				FD53189B26170E9600F6ABCF /* MapViews.swift in Sources */,
 				FDA6D49525C9A2FE00B3DB9D /* Moonshot.swift in Sources */,
+				FDEE63AC262AD78B006A5B5B /* Facility.swift in Sources */,
 				FDE7625A2625EC5A00518704 /* Flashzilla.swift in Sources */,
 				FD88813D26064FB60019CE17 /* FilteredList.swift in Sources */,
 				FDB78B2326273EE9006B49EE /* CustomAlignmentGuides.swift in Sources */,
@@ -907,6 +957,8 @@
 				FDAC84A225C6E7230015D268 /* OnDelete.swift in Sources */,
 				FDEAE5AF260F3F530042B72B /* ImagePicker.swift in Sources */,
 				FDB78B1926273B4B006B49EE /* Layouts.swift in Sources */,
+				FDEE63A2262ACB0D006A5B5B /* SkiDetailsView.swift in Sources */,
+				FDBD647B2629DBD80053801E /* TwoSideBySideViews.swift in Sources */,
 				FD53A1D125D9440D00D807D6 /* AddBookView.swift in Sources */,
 				FD07FF2825BD96DC00A02404 /* Day16.swift in Sources */,
 				FD77BCCB25C59770006C2869 /* AnimatingGesture.swift in Sources */,
@@ -929,10 +981,12 @@
 				FDAC849D25C6DCE90015D268 /* ShowHideViews.swift in Sources */,
 				FD07FF3C25BDA20800A02404 /* project.swift in Sources */,
 				FD17B04C25D590A9007213B1 /* CombineCoreDataWithSwiftUI.swift in Sources */,
+				FDEE6386262AB763006A5B5B /* SnowSeeker.swift in Sources */,
 				FDB78B392627466C006B49EE /* FramesAndCoordinatesInsideGeometryReader.swift in Sources */,
 				FD5318C82617654E00F6ABCF /* Results.swift in Sources */,
 				FDAC84A725C6EAF30015D268 /* UserDefaultStoreData.swift in Sources */,
 				FD88811C26064C9B0019CE17 /* DynamicFiltering.swift in Sources */,
+				FDEE63A7262ACB9D006A5B5B /* ResortDetailsView.swift in Sources */,
 				FDA6D4A625C9A78E00B3DB9D /* Astronaut.swift in Sources */,
 				FDA0F6EB25EE8E8D0088FABA /* Movie+CoreDataClass.swift in Sources */,
 				FDE7624F2625A51800518704 /* SupportingSpecificAccessibilityNeeds.swift in Sources */,
@@ -961,6 +1015,8 @@
 				FD8884C025CEEE4D003AD159 /* SpirographDig.swift in Sources */,
 				FDE762672625EE5800518704 /* CardView.swift in Sources */,
 				FDE7624A2625A26100518704 /* NotifiedWhenAppMovesToBackground.swift in Sources */,
+				FDBD648B2629FE520053801E /* UsingGroupsAsTransparentLayoutContainers.swift in Sources */,
+				FDEE63B1262AE4E9006A5B5B /* Favorites.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
